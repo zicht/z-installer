@@ -1,0 +1,829 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "2ee07daa3102273722dbb5898a03a1ec",
+    "packages": [
+        {
+            "name": "symfony/config",
+            "version": "v2.4.3",
+            "target-dir": "Symfony/Component/Config",
+            "source": {
+                "type": "git",
+                "url": "zichter@dev3:github/symfony/Config.git",
+                "reference": "v2.4.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://remote.satis.dev3.zicht.intern/packages/symfony/Config.git/v2.4.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "symfony/filesystem": "~2.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Config\\": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Config Component",
+            "homepage": "http://symfony.com",
+            "time": "2014-03-26 11:35:33"
+        },
+        {
+            "name": "symfony/console",
+            "version": "v2.4.3",
+            "target-dir": "Symfony/Component/Console",
+            "source": {
+                "type": "git",
+                "url": "zichter@dev3:github/symfony/Console.git",
+                "reference": "v2.4.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://remote.satis.dev3.zicht.intern/packages/symfony/Console.git/v2.4.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "symfony/event-dispatcher": "~2.1"
+            },
+            "suggest": {
+                "symfony/event-dispatcher": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Console\\": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Console Component",
+            "homepage": "http://symfony.com",
+            "time": "2014-03-01 17:35:04"
+        },
+        {
+            "name": "symfony/filesystem",
+            "version": "v2.4.3",
+            "target-dir": "Symfony/Component/Filesystem",
+            "source": {
+                "type": "git",
+                "url": "zichter@dev3:github/symfony/Filesystem.git",
+                "reference": "v2.4.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://remote.satis.dev3.zicht.intern/packages/symfony/Filesystem.git/v2.4.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Filesystem\\": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Filesystem Component",
+            "homepage": "http://symfony.com",
+            "time": "2014-03-26 11:55:03"
+        },
+        {
+            "name": "symfony/finder",
+            "version": "v2.4.3",
+            "target-dir": "Symfony/Component/Finder",
+            "source": {
+                "type": "git",
+                "url": "zichter@dev3:github/symfony/Finder.git",
+                "reference": "v2.4.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://remote.satis.dev3.zicht.intern/packages/symfony/Finder.git/v2.4.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Finder\\": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Finder Component",
+            "homepage": "http://symfony.com",
+            "time": "2014-03-01 17:35:04"
+        },
+        {
+            "name": "symfony/process",
+            "version": "v2.4.3",
+            "target-dir": "Symfony/Component/Process",
+            "source": {
+                "type": "git",
+                "url": "zichter@dev3:github/symfony/Process.git",
+                "reference": "v2.4.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://remote.satis.dev3.zicht.intern/packages/symfony/Process.git/v2.4.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Process\\": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Process Component",
+            "homepage": "http://symfony.com",
+            "time": "2014-03-26 11:35:33"
+        },
+        {
+            "name": "symfony/yaml",
+            "version": "v2.4.3",
+            "target-dir": "Symfony/Component/Yaml",
+            "source": {
+                "type": "git",
+                "url": "zichter@dev3:github/symfony/Yaml.git",
+                "reference": "v2.4.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://remote.satis.dev3.zicht.intern/packages/symfony/Yaml.git/v2.4.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Yaml\\": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Yaml Component",
+            "homepage": "http://symfony.com",
+            "time": "2014-03-12 18:29:58"
+        },
+        {
+            "name": "zicht/util",
+            "version": "1.1.0",
+            "source": {
+                "type": "svn",
+                "url": "svn://zon/projecten/zicht-libraries/ZichtUtil",
+                "reference": "/tags/1.1.0/@35886"
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "": [
+                        "src/",
+                        "tests/"
+                    ]
+                }
+            },
+            "authors": [
+                {
+                    "name": "Gerard van Helden",
+                    "email": "gerard@zicht.nl"
+                }
+            ],
+            "description": "Low level utility classes",
+            "time": "2014-04-23 15:54:34"
+        },
+        {
+            "name": "zicht/version",
+            "version": "1.1.0-rc.1",
+            "source": {
+                "type": "svn",
+                "url": "svn://zon/projecten/zicht-libraries/ZichtVersion",
+                "reference": "/tags/1.1.0-rc.1/@36548"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Zicht\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gerard van Helden",
+                    "email": "gerard@zicht.nl"
+                }
+            ],
+            "description": "Versioning logic following SemVer.org",
+            "time": "2014-05-03 16:06:16"
+        },
+        {
+            "name": "zicht/z",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "svn://zon/projecten/zicht-libraries/z",
+                "reference": "/trunk/@39433"
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "symfony/config": "2.4.*@stable",
+                "symfony/console": "2.4.*@stable",
+                "symfony/finder": "2.4.*@stable",
+                "symfony/process": "2.4.*@stable",
+                "symfony/yaml": "2.4.*@stable",
+                "zicht/util": "1.1.*@rc",
+                "zicht/version": "1.1.*@rc"
+            },
+            "suggest": {
+                "zicht/z-plugins": "A set of default plugins for Z"
+            },
+            "bin": [
+                "bin/z",
+                "bin/z.php",
+                "bin/package.php"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "": "src/"
+                }
+            },
+            "scripts": {
+                "post-install-cmd": [
+
+                ],
+                "post-update-cmd": [
+
+                ]
+            },
+            "description": "Z - The Zicht build tool",
+            "time": "2014-06-08 01:35:45"
+        },
+        {
+            "name": "zicht/z-plugin-apc",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "svn://zon/projecten/zicht-libraries/z-plugin-apc",
+                "reference": "/trunk/@36552"
+            },
+            "type": "library",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gerard van Helden",
+                    "email": "gerard@zicht.nl"
+                }
+            ],
+            "description": "APC plugin for Z",
+            "time": "2014-05-04 16:58:40"
+        },
+        {
+            "name": "zicht/z-plugin-bower",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "svn://zon/projecten/zicht-libraries/z-plugin-bower",
+                "reference": "/trunk/@36552"
+            },
+            "type": "library",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joppe Aarts",
+                    "email": "joppe@zicht.nl"
+                }
+            ],
+            "description": "Bower plugin for Z",
+            "time": "2014-05-04 16:58:40"
+        },
+        {
+            "name": "zicht/z-plugin-build",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "svn://zon/projecten/zicht-libraries/z-plugin-build",
+                "reference": "/trunk/@36552"
+            },
+            "type": "library",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gerard van Helden",
+                    "email": "gerard@zicht.nl"
+                }
+            ],
+            "description": "Build plugin for Z",
+            "time": "2014-05-04 16:58:40"
+        },
+        {
+            "name": "zicht/z-plugin-chmod",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "svn://zon/projecten/zicht-libraries/z-plugin-chmod",
+                "reference": "/trunk/@36552"
+            },
+            "type": "library",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gerard van Helden",
+                    "email": "gerard@zicht.nl"
+                }
+            ],
+            "description": "chmod plugin for Z",
+            "time": "2014-05-04 16:58:40"
+        },
+        {
+            "name": "zicht/z-plugin-ci",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "svn://zon/projecten/zicht-libraries/z-plugin-ci",
+                "reference": "/trunk/@36552"
+            },
+            "type": "library",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gerard van Helden",
+                    "email": "gerard@zicht.nl"
+                }
+            ],
+            "description": "Continuous Integration plugin for Z",
+            "time": "2014-05-04 16:58:40"
+        },
+        {
+            "name": "zicht/z-plugin-content",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "svn://zon/projecten/zicht-libraries/z-plugin-content",
+                "reference": "/trunk/@36552"
+            },
+            "type": "library",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gerard van Helden",
+                    "email": "gerard@zicht.nl"
+                }
+            ],
+            "description": "Content plugin for Z",
+            "time": "2014-05-04 16:58:40"
+        },
+        {
+            "name": "zicht/z-plugin-core",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "svn://zon/projecten/zicht-libraries/z-plugin-core",
+                "reference": "/trunk/@35704"
+            },
+            "type": "library",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gerard van Helden",
+                    "email": "gerard@zicht.nl"
+                }
+            ],
+            "description": "Core plugin for Z",
+            "time": "2014-04-18 16:17:00"
+        },
+        {
+            "name": "zicht/z-plugin-deploy",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "svn://zon/projecten/zicht-libraries/z-plugin-deploy",
+                "reference": "/trunk/@36552"
+            },
+            "type": "library",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gerard van Helden",
+                    "email": "gerard@zicht.nl"
+                }
+            ],
+            "description": "Deploy plugin for Z",
+            "time": "2014-05-04 16:58:40"
+        },
+        {
+            "name": "zicht/z-plugin-env",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "svn://zon/projecten/zicht-libraries/z-plugin-env",
+                "reference": "/trunk/@39418"
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "scripts": {
+                "post-install-cmd": [
+
+                ],
+                "post-update-cmd": [
+
+                ]
+            },
+            "description": "'env' plugin for Z",
+            "time": "2014-06-07 18:22:41"
+        },
+        {
+            "name": "zicht/z-plugin-interact",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "svn://zon/projecten/zicht-libraries/z-plugin-interact",
+                "reference": "/trunk/@36552"
+            },
+            "type": "library",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gerard van Helden",
+                    "email": "gerard@zicht.nl"
+                }
+            ],
+            "description": "Console interaction plugin for Z",
+            "time": "2014-05-04 16:58:40"
+        },
+        {
+            "name": "zicht/z-plugin-lftp",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "svn://zon/projecten/zicht-libraries/z-plugin-lftp",
+                "reference": "/trunk/@36552"
+            },
+            "type": "library",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Philip Bergman",
+                    "email": "philip@zicht.nl"
+                }
+            ],
+            "description": "LFTP sync plugin for Z",
+            "time": "2014-05-04 16:58:40"
+        },
+        {
+            "name": "zicht/z-plugin-notify",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "svn://zon/projecten/zicht-libraries/z-plugin-notify",
+                "reference": "/trunk/@35704"
+            },
+            "type": "library",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Oskar van Velden",
+                    "email": "oskar@zicht.nl"
+                }
+            ],
+            "description": "Notify plugin for Z",
+            "time": "2014-04-18 16:17:00"
+        },
+        {
+            "name": "zicht/z-plugin-qa",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "svn://zon/projecten/zicht-libraries/z-plugin-qa",
+                "reference": "/trunk/@36552"
+            },
+            "type": "library",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gerard van Helden",
+                    "email": "gerard@zicht.nl"
+                }
+            ],
+            "description": "Quality Assurance plugin for Z",
+            "time": "2014-05-04 16:58:40"
+        },
+        {
+            "name": "zicht/z-plugin-rsync",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "svn://zon/projecten/zicht-libraries/z-plugin-rsync",
+                "reference": "/trunk/@36552"
+            },
+            "type": "library",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gerard van Helden",
+                    "email": "gerard@zicht.nl"
+                }
+            ],
+            "description": "rsync sync plugin for Z",
+            "time": "2014-05-04 16:58:40"
+        },
+        {
+            "name": "zicht/z-plugin-sass",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "svn://zon/projecten/zicht-libraries/z-plugin-sass",
+                "reference": "/trunk/@36552"
+            },
+            "type": "library",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gerard van Helden",
+                    "email": "gerard@zicht.nl"
+                }
+            ],
+            "description": "Sass plugin for Z",
+            "time": "2014-05-04 16:58:40"
+        },
+        {
+            "name": "zicht/z-plugin-svn",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "svn://zon/projecten/zicht-libraries/z-plugin-svn",
+                "reference": "/trunk/@36552"
+            },
+            "type": "library",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gerard van Helden",
+                    "email": "gerard@zicht.nl"
+                }
+            ],
+            "description": "SVN plugin for Z",
+            "time": "2014-05-04 16:58:40"
+        },
+        {
+            "name": "zicht/z-plugin-symfony",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "svn://zon/projecten/zicht-libraries/z-plugin-symfony",
+                "reference": "/trunk/@36552"
+            },
+            "type": "library",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gerard van Helden",
+                    "email": "gerard@zicht.nl"
+                }
+            ],
+            "description": "Deployment utils for Symfony Z plugin",
+            "time": "2014-05-04 16:58:40"
+        },
+        {
+            "name": "zicht/z-plugin-uglifyjs",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "svn://zon/projecten/zicht-libraries/z-plugin-uglifyjs",
+                "reference": "/trunk/@36552"
+            },
+            "type": "library",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gerard van Helden",
+                    "email": "gerard@zicht.nl"
+                }
+            ],
+            "description": "Uglifyjs plugin for Z",
+            "time": "2014-05-04 16:58:40"
+        },
+        {
+            "name": "zicht/z-plugins",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "svn://zon/projecten/zicht-libraries/z-plugins",
+                "reference": "/trunk/@36552"
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "scripts": {
+                "post-install-cmd": [
+
+                ],
+                "post-update-cmd": [
+
+                ]
+            },
+            "description": "Plugins for Z",
+            "time": "2014-05-04 16:58:40"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "zicht/z": 20,
+        "zicht/version": 5,
+        "zicht/z-plugin-apc": 20,
+        "zicht/z-plugin-bower": 20,
+        "zicht/z-plugin-build": 20,
+        "zicht/z-plugin-chmod": 20,
+        "zicht/z-plugin-ci": 20,
+        "zicht/z-plugin-content": 20,
+        "zicht/z-plugin-core": 20,
+        "zicht/z-plugin-deploy": 20,
+        "zicht/z-plugin-env": 20,
+        "zicht/z-plugin-interact": 20,
+        "zicht/z-plugin-lftp": 20,
+        "zicht/z-plugin-notify": 20,
+        "zicht/z-plugin-qa": 20,
+        "zicht/z-plugin-rsync": 20,
+        "zicht/z-plugin-sass": 20,
+        "zicht/z-plugin-svn": 20,
+        "zicht/z-plugin-symfony": 20,
+        "zicht/z-plugin-uglifyjs": 20,
+        "zicht/z-plugins": 20
+    },
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}
