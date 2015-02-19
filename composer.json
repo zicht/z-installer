@@ -19,7 +19,8 @@
         "zicht/z-plugin-sass": "*@dev",
         "zicht/z-plugin-svn": "*@dev",
         "zicht/z-plugin-symfony": "*@dev",
-        "zicht/z-plugin-uglifyjs": "*@dev"
+        "zicht/z-plugin-uglifyjs": "*@dev",
+        "zicht/z-plugin-docker": "*@dev"
     },
     "minimum-stability": "dev"
 }
