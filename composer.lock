@@ -354,7 +354,7 @@
             "source": {
                 "type": "svn",
                 "url": "svn://zon/projecten/zicht-libraries/z",
-                "reference": "/trunk/@57775"
+                "reference": "/trunk/@57814"
             },
             "require": {
                 "php": ">=5.3.3",
@@ -372,7 +372,8 @@
             "bin": [
                 "bin/z",
                 "bin/z.php",
-                "bin/package.php"
+                "bin/package.php",
+                "bin/1to2.sh"
             ],
             "type": "library",
             "autoload": {
@@ -388,7 +389,7 @@
                 "MIT"
             ],
             "description": "Z - The Zicht build tool",
-            "time": "2015-03-05 18:49:22"
+            "time": "2015-03-06 11:35:44"
         },
         {
             "name": "zicht/z-plugin-apc",
