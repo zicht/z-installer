@@ -20,7 +20,8 @@
         "zicht/z-plugin-svn": "*@dev",
         "zicht/z-plugin-symfony": "*@dev",
         "zicht/z-plugin-uglifyjs": "*@dev",
-        "zicht/z-plugin-docker": "*@dev"
+        "zicht/z-plugin-docker": "*@dev",
+        "zicht/z-plugin-log": "dev-trunk"
     },
     "minimum-stability": "dev"
 }

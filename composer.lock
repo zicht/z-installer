@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ccebcdf974704e1ae02b04b7141c2161",
+    "hash": "ae459e77f8d830069829c9e238d93ae0",
     "packages": [
         {
             "name": "symfony/config",
@@ -642,6 +642,27 @@
             "time": "2014-05-04 16:58:40"
         },
         {
+            "name": "zicht/z-plugin-log",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "svn://zon/projecten/zicht-libraries/z-plugin-log",
+                "reference": "/trunk/@62638"
+            },
+            "type": "library",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gerard van Helden",
+                    "email": "gerard@zicht.nl"
+                }
+            ],
+            "description": "Log plugin for Z",
+            "time": "2015-05-26 09:56:08"
+        },
+        {
             "name": "zicht/z-plugin-notify",
             "version": "dev-trunk",
             "source": {
@@ -813,7 +834,8 @@
         "zicht/z-plugin-svn": 20,
         "zicht/z-plugin-symfony": 20,
         "zicht/z-plugin-uglifyjs": 20,
-        "zicht/z-plugin-docker": 20
+        "zicht/z-plugin-docker": 20,
+        "zicht/z-plugin-log": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
