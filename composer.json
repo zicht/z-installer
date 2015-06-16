@@ -13,7 +13,6 @@
         "zicht/z-plugin-env": "*@dev",
         "zicht/z-plugin-interact": "*@dev",
         "zicht/z-plugin-lftp": "*@dev",
-        "zicht/z-plugin-notify": "*@dev",
         "zicht/z-plugin-qa": "*@dev",
         "zicht/z-plugin-rsync": "*@dev",
         "zicht/z-plugin-sass": "*@dev",
