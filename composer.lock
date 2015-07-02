@@ -615,7 +615,7 @@
             "source": {
                 "type": "svn",
                 "url": "svn://zon/projecten/zicht-libraries/z-plugin-interact",
-                "reference": "/trunk/@39419"
+                "reference": "/trunk/@64743"
             },
             "type": "library",
             "license": [
@@ -628,7 +628,7 @@
                 }
             ],
             "description": "Console interaction plugin for Z",
-            "time": "2014-06-07 18:22:42"
+            "time": "2015-07-01 18:41:28"
         },
         {
             "name": "zicht/z-plugin-lftp",
