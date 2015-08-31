@@ -364,7 +364,7 @@
             "source": {
                 "type": "svn",
                 "url": "svn://zon/projecten/zicht-libraries/z",
-                "reference": "/trunk/@63987"
+                "reference": "/trunk/@67182"
             },
             "require": {
                 "php": ">=5.3.3",
@@ -399,7 +399,7 @@
                 "MIT"
             ],
             "description": "Z - The Zicht build tool",
-            "time": "2015-06-16 23:55:24"
+            "time": "2015-08-11 17:27:03"
         },
         {
             "name": "zicht/z-plugin-apc",
@@ -512,7 +512,7 @@
             "source": {
                 "type": "svn",
                 "url": "svn://zon/projecten/zicht-libraries/z-plugin-content",
-                "reference": "/trunk/@64482"
+                "reference": "/trunk/@67481"
             },
             "type": "library",
             "license": [
@@ -525,7 +525,7 @@
                 }
             ],
             "description": "Content plugin for Z",
-            "time": "2015-06-29 12:09:37"
+            "time": "2015-08-19 13:59:43"
         },
         {
             "name": "zicht/z-plugin-core",
@@ -575,7 +575,7 @@
             "source": {
                 "type": "svn",
                 "url": "svn://zon/projecten/zicht-libraries/z-plugin-docker",
-                "reference": "/trunk/@64123"
+                "reference": "/trunk/@68105"
             },
             "type": "library",
             "license": [
@@ -588,7 +588,7 @@
                 }
             ],
             "description": "Docker plugin for Z",
-            "time": "2015-06-18 17:05:06"
+            "time": "2015-08-31 11:51:23"
         },
         {
             "name": "zicht/z-plugin-env",
