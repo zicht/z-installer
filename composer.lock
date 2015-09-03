@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7667f6f007ce9eb00a13d33f7fa0de45",
+    "hash": "aefafde014a5d8ac3d2eecb828e928f9",
     "packages": [
         {
             "name": "symfony/config",
@@ -673,6 +673,27 @@
             "time": "2015-06-12 14:29:08"
         },
         {
+            "name": "zicht/z-plugin-messages",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "svn://zon/projecten/zicht-libraries/z-plugin-messages",
+                "reference": "/trunk/@68312"
+            },
+            "type": "library",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Boudewijn Schoon",
+                    "email": "boudewijn@zicht.nl"
+                }
+            ],
+            "description": "Messages plugin for Z",
+            "time": "2015-09-03 13:15:05"
+        },
+        {
             "name": "zicht/z-plugin-qa",
             "version": "dev-trunk",
             "source": {
@@ -823,7 +844,8 @@
         "zicht/z-plugin-symfony": 20,
         "zicht/z-plugin-uglifyjs": 20,
         "zicht/z-plugin-docker": 20,
-        "zicht/z-plugin-log": 20
+        "zicht/z-plugin-log": 20,
+        "zicht/z-plugin-messages": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
