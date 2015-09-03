@@ -575,7 +575,7 @@
             "source": {
                 "type": "svn",
                 "url": "svn://zon/projecten/zicht-libraries/z-plugin-docker",
-                "reference": "/trunk/@68105"
+                "reference": "/trunk/@68334"
             },
             "type": "library",
             "license": [
@@ -588,7 +588,7 @@
                 }
             ],
             "description": "Docker plugin for Z",
-            "time": "2015-08-31 11:51:23"
+            "time": "2015-09-03 14:34:27"
         },
         {
             "name": "zicht/z-plugin-env",
