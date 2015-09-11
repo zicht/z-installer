@@ -512,7 +512,7 @@
             "source": {
                 "type": "svn",
                 "url": "svn://zon/projecten/zicht-libraries/z-plugin-content",
-                "reference": "/trunk/@67481"
+                "reference": "/trunk/@68817"
             },
             "type": "library",
             "license": [
@@ -525,7 +525,7 @@
                 }
             ],
             "description": "Content plugin for Z",
-            "time": "2015-08-19 13:59:43"
+            "time": "2015-09-11 15:10:07"
         },
         {
             "name": "zicht/z-plugin-core",
