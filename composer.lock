@@ -762,7 +762,7 @@
             "source": {
                 "type": "svn",
                 "url": "svn://zon/projecten/zicht-libraries/z-plugin-svn",
-                "reference": "/trunk/@62412"
+                "reference": "/trunk/@69153"
             },
             "type": "library",
             "license": [
@@ -775,7 +775,7 @@
                 }
             ],
             "description": "SVN plugin for Z",
-            "time": "2015-05-20 01:25:01"
+            "time": "2015-09-17 14:17:54"
         },
         {
             "name": "zicht/z-plugin-symfony",
