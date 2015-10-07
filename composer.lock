@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
     "hash": "aefafde014a5d8ac3d2eecb828e928f9",
@@ -657,7 +657,7 @@
             "source": {
                 "type": "svn",
                 "url": "svn://zon/projecten/zicht-libraries/z-plugin-log",
-                "reference": "/trunk/@63760"
+                "reference": "/trunk/@69184"
             },
             "type": "library",
             "license": [
@@ -670,7 +670,7 @@
                 }
             ],
             "description": "Log plugin for Z",
-            "time": "2015-06-12 14:29:08"
+            "time": "2015-09-17 20:53:38"
         },
         {
             "name": "zicht/z-plugin-messages",
