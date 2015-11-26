@@ -4,28 +4,25 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "aefafde014a5d8ac3d2eecb828e928f9",
+    "hash": "462b6396480468bd05a8f9fe45e30233",
     "packages": [
         {
             "name": "symfony/config",
-            "version": "v2.7.1",
+            "version": "v2.7.7",
             "source": {
                 "type": "git",
                 "url": "zichter@dev3:github/symfony/Config.git",
-                "reference": "2e7847fb64cebc07894c2cfa4e3c18cd8d6b7d5e"
+                "reference": "02ec2780d62cb085deadec01e5991588a718c68a"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://remote.satis.dev3.zicht.intern/packages/symfony/Config.git/v2.7.1.zip",
+                "url": "http://remote.satis.dev3.zicht.intern/packages/symfony/Config.git/v2.7.7.zip",
                 "reference": null,
                 "shasum": null
             },
             "require": {
                 "php": ">=5.3.9",
                 "symfony/filesystem": "~2.3"
-            },
-            "require-dev": {
-                "symfony/phpunit-bridge": "~2.7"
             },
             "type": "library",
             "extra": {
@@ -36,7 +33,10 @@
             "autoload": {
                 "psr-4": {
                     "Symfony\\Component\\Config\\": ""
-                }
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
             },
             "license": [
                 "MIT"
@@ -53,19 +53,19 @@
             ],
             "description": "Symfony Config Component",
             "homepage": "https://symfony.com",
-            "time": "2015-06-11 14:06:56"
+            "time": "2015-11-02 20:20:53"
         },
         {
             "name": "symfony/console",
-            "version": "v2.7.1",
+            "version": "v2.7.7",
             "source": {
                 "type": "git",
                 "url": "zichter@dev3:github/symfony/Console.git",
-                "reference": "a1572ad84e6b8dc65c0f5ab18762e0f8079bee26"
+                "reference": "b66f2c74f2a0a6a158d88ae793197d408e7ce36d"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://remote.satis.dev3.zicht.intern/packages/symfony/Console.git/v2.7.1.zip",
+                "url": "http://remote.satis.dev3.zicht.intern/packages/symfony/Console.git/v2.7.7.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -75,7 +75,6 @@
             "require-dev": {
                 "psr/log": "~1.0",
                 "symfony/event-dispatcher": "~2.1",
-                "symfony/phpunit-bridge": "~2.7",
                 "symfony/process": "~2.1"
             },
             "suggest": {
@@ -92,7 +91,10 @@
             "autoload": {
                 "psr-4": {
                     "Symfony\\Component\\Console\\": ""
-                }
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
             },
             "license": [
                 "MIT"
@@ -109,27 +111,24 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2015-06-10 15:27:02"
+            "time": "2015-11-17 21:13:39"
         },
         {
             "name": "symfony/filesystem",
-            "version": "v2.7.1",
+            "version": "v2.7.7",
             "source": {
                 "type": "git",
                 "url": "zichter@dev3:github/symfony/Filesystem.git",
-                "reference": "3bd82230b907c775c518796fa2e3dd904d6b75b9"
+                "reference": "99fa04941d2ce6cefab87bb0a4b69b136819c8d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://remote.satis.dev3.zicht.intern/packages/symfony/Filesystem.git/v2.7.1.zip",
+                "url": "http://remote.satis.dev3.zicht.intern/packages/symfony/Filesystem.git/v2.7.7.zip",
                 "reference": null,
                 "shasum": null
             },
             "require": {
                 "php": ">=5.3.9"
-            },
-            "require-dev": {
-                "symfony/phpunit-bridge": "~2.7"
             },
             "type": "library",
             "extra": {
@@ -140,7 +139,10 @@
             "autoload": {
                 "psr-4": {
                     "Symfony\\Component\\Filesystem\\": ""
-                }
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
             },
             "license": [
                 "MIT"
@@ -157,27 +159,24 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
-            "time": "2015-06-07 06:33:05"
+            "time": "2015-11-18 13:41:01"
         },
         {
             "name": "symfony/finder",
-            "version": "v2.7.1",
+            "version": "v2.7.7",
             "source": {
                 "type": "git",
                 "url": "zichter@dev3:github/symfony/Finder.git",
-                "reference": "c2aabb5fda9afff4df580e1abffa5bdabdbcc449"
+                "reference": "25022d2c5b70179e926ffb2c86b8f2927eed8e8b"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://remote.satis.dev3.zicht.intern/packages/symfony/Finder.git/v2.7.1.zip",
+                "url": "http://remote.satis.dev3.zicht.intern/packages/symfony/Finder.git/v2.7.7.zip",
                 "reference": null,
                 "shasum": null
             },
             "require": {
                 "php": ">=5.3.9"
-            },
-            "require-dev": {
-                "symfony/phpunit-bridge": "~2.7"
             },
             "type": "library",
             "extra": {
@@ -188,7 +187,10 @@
             "autoload": {
                 "psr-4": {
                     "Symfony\\Component\\Finder\\": ""
-                }
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
             },
             "license": [
                 "MIT"
@@ -205,27 +207,24 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2015-06-04 20:11:48"
+            "time": "2015-10-30 20:10:21"
         },
         {
             "name": "symfony/process",
-            "version": "v2.7.1",
+            "version": "v2.7.7",
             "source": {
                 "type": "git",
                 "url": "zichter@dev3:github/symfony/Process.git",
-                "reference": "3684517c2c90e3d139610b9386b84eede966ad52"
+                "reference": "18bbb9330c7a36ca2a8486432a3f3a6aab7bfb86"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://remote.satis.dev3.zicht.intern/packages/symfony/Process.git/v2.7.1.zip",
+                "url": "http://remote.satis.dev3.zicht.intern/packages/symfony/Process.git/v2.7.7.zip",
                 "reference": null,
                 "shasum": null
             },
             "require": {
                 "php": ">=5.3.9"
-            },
-            "require-dev": {
-                "symfony/phpunit-bridge": "~2.7"
             },
             "type": "library",
             "extra": {
@@ -236,7 +235,10 @@
             "autoload": {
                 "psr-4": {
                     "Symfony\\Component\\Process\\": ""
-                }
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
             },
             "license": [
                 "MIT"
@@ -253,27 +255,24 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2015-06-07 06:33:05"
+            "time": "2015-11-19 16:11:24"
         },
         {
             "name": "symfony/yaml",
-            "version": "v2.7.1",
+            "version": "v2.7.7",
             "source": {
                 "type": "git",
                 "url": "zichter@dev3:github/symfony/Yaml.git",
-                "reference": "7514272cd0c35a34c08f0a59ec24f202db83874f"
+                "reference": "c5a3af6baa1e12ddf8c5bc7934d1b3111dc6d79b"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://remote.satis.dev3.zicht.intern/packages/symfony/Yaml.git/v2.7.1.zip",
+                "url": "http://remote.satis.dev3.zicht.intern/packages/symfony/Yaml.git/v2.7.7.zip",
                 "reference": null,
                 "shasum": null
             },
             "require": {
                 "php": ">=5.3.9"
-            },
-            "require-dev": {
-                "symfony/phpunit-bridge": "~2.7"
             },
             "type": "library",
             "extra": {
@@ -284,7 +283,10 @@
             "autoload": {
                 "psr-4": {
                     "Symfony\\Component\\Yaml\\": ""
-                }
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
             },
             "license": [
                 "MIT"
@@ -301,7 +303,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2015-06-10 15:27:02"
+            "time": "2015-11-18 13:41:01"
         },
         {
             "name": "zicht/util",
@@ -364,7 +366,7 @@
             "source": {
                 "type": "svn",
                 "url": "svn://zon/projecten/zicht-libraries/z",
-                "reference": "/trunk/@67182"
+                "reference": "/trunk/@73832"
             },
             "require": {
                 "php": ">=5.3.3",
@@ -399,7 +401,7 @@
                 "MIT"
             ],
             "description": "Z - The Zicht build tool",
-            "time": "2015-08-11 17:27:03"
+            "time": "2015-11-23 10:45:00"
         },
         {
             "name": "zicht/z-plugin-apc",
@@ -512,7 +514,7 @@
             "source": {
                 "type": "svn",
                 "url": "svn://zon/projecten/zicht-libraries/z-plugin-content",
-                "reference": "/trunk/@68817"
+                "reference": "/trunk/@74058"
             },
             "type": "library",
             "license": [
@@ -525,7 +527,7 @@
                 }
             ],
             "description": "Content plugin for Z",
-            "time": "2015-09-11 15:10:07"
+            "time": "2015-11-24 17:46:56"
         },
         {
             "name": "zicht/z-plugin-core",
@@ -575,7 +577,7 @@
             "source": {
                 "type": "svn",
                 "url": "svn://zon/projecten/zicht-libraries/z-plugin-docker",
-                "reference": "/trunk/@68334"
+                "reference": "/trunk/@70025"
             },
             "type": "library",
             "license": [
@@ -588,7 +590,7 @@
                 }
             ],
             "description": "Docker plugin for Z",
-            "time": "2015-09-03 14:34:27"
+            "time": "2015-10-01 15:21:00"
         },
         {
             "name": "zicht/z-plugin-env",
@@ -757,6 +759,25 @@
             "time": "2015-06-16 23:42:33"
         },
         {
+            "name": "zicht/z-plugin-ssh",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "svn://zon/projecten/zicht-libraries/z-plugin-ssh",
+                "reference": "/trunk/@74110"
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "scripts": {
+                "post-install-cmd": [],
+                "post-update-cmd": []
+            },
+            "description": "'ssh socket' plugin for Z",
+            "time": "2015-11-25 17:01:50"
+        },
+        {
             "name": "zicht/z-plugin-svn",
             "version": "dev-trunk",
             "source": {
@@ -799,6 +820,25 @@
             "time": "2015-03-06 11:28:53"
         },
         {
+            "name": "zicht/z-plugin-tunnel",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "svn://zon/projecten/zicht-libraries/z-plugin-tunnel",
+                "reference": "/trunk/@74199"
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "scripts": {
+                "post-install-cmd": [],
+                "post-update-cmd": []
+            },
+            "description": "'ssh tunnel' plugin for Z",
+            "time": "2015-11-26 14:17:26"
+        },
+        {
             "name": "zicht/z-plugin-uglifyjs",
             "version": "dev-trunk",
             "source": {
@@ -826,6 +866,7 @@
     "stability-flags": {
         "zicht/z": 20,
         "zicht/version": 5,
+        "zicht/z-plugin-ssh": 20,
         "zicht/z-plugin-apc": 20,
         "zicht/z-plugin-bower": 20,
         "zicht/z-plugin-build": 20,
@@ -845,7 +886,8 @@
         "zicht/z-plugin-uglifyjs": 20,
         "zicht/z-plugin-docker": 20,
         "zicht/z-plugin-log": 20,
-        "zicht/z-plugin-messages": 20
+        "zicht/z-plugin-messages": 20,
+        "zicht/z-plugin-tunnel": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
