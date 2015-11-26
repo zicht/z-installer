@@ -2,7 +2,6 @@
     "require": {
         "zicht/z": "dev-trunk@dev",
         "zicht/version": "1.1.0-rc.1@rc",
-        "zicht/z-plugin-ssh": "*@dev",
         "zicht/z-plugin-apc": "*@dev",
         "zicht/z-plugin-bower": "*@dev",
         "zicht/z-plugin-build": "*@dev",

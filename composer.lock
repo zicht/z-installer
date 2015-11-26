@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "462b6396480468bd05a8f9fe45e30233",
+    "hash": "3706a30ef6d6db8e149200fe18a9ed51",
     "packages": [
         {
             "name": "symfony/config",
@@ -759,25 +759,6 @@
             "time": "2015-06-16 23:42:33"
         },
         {
-            "name": "zicht/z-plugin-ssh",
-            "version": "dev-trunk",
-            "source": {
-                "type": "svn",
-                "url": "svn://zon/projecten/zicht-libraries/z-plugin-ssh",
-                "reference": "/trunk/@74110"
-            },
-            "require": {
-                "php": ">=5.3.3"
-            },
-            "type": "library",
-            "scripts": {
-                "post-install-cmd": [],
-                "post-update-cmd": []
-            },
-            "description": "'ssh socket' plugin for Z",
-            "time": "2015-11-25 17:01:50"
-        },
-        {
             "name": "zicht/z-plugin-svn",
             "version": "dev-trunk",
             "source": {
@@ -866,7 +847,6 @@
     "stability-flags": {
         "zicht/z": 20,
         "zicht/version": 5,
-        "zicht/z-plugin-ssh": 20,
         "zicht/z-plugin-apc": 20,
         "zicht/z-plugin-bower": 20,
         "zicht/z-plugin-build": 20,
