@@ -806,7 +806,7 @@
             "source": {
                 "type": "svn",
                 "url": "svn://zon/projecten/zicht-libraries/z-plugin-tunnel",
-                "reference": "/trunk/@74204"
+                "reference": "/trunk/@74207"
             },
             "require": {
                 "php": ">=5.3.3"
@@ -817,7 +817,7 @@
                 "post-update-cmd": []
             },
             "description": "'ssh tunnel' plugin for Z",
-            "time": "2015-11-26 14:29:21"
+            "time": "2015-11-26 14:32:57"
         },
         {
             "name": "zicht/z-plugin-uglifyjs",
