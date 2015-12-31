@@ -1,10 +1,11 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3706a30ef6d6db8e149200fe18a9ed51",
+    "hash": "8fa62486b85bc76e14357d089f310a18",
+    "content-hash": "a211bf0c8199d170e0fdf08cdebe9376",
     "packages": [
         {
             "name": "symfony/config",
@@ -366,7 +367,7 @@
             "source": {
                 "type": "svn",
                 "url": "svn://zon/projecten/zicht-libraries/z",
-                "reference": "/trunk/@75099"
+                "reference": "/trunk/@76242"
             },
             "require": {
                 "php": ">=5.3.3",
@@ -377,6 +378,9 @@
                 "symfony/yaml": "2.*@stable",
                 "zicht/util": "1.*@stable",
                 "zicht/version": "1.*@stable"
+            },
+            "require-dev": {
+                "behat/behat": "^3.0"
             },
             "suggest": {
                 "zicht/z-plugins": "A set of default plugins for Z"
@@ -401,7 +405,7 @@
                 "MIT"
             ],
             "description": "Z - The Zicht build tool",
-            "time": "2015-12-09 10:20:20"
+            "time": "2015-12-31 13:46:08"
         },
         {
             "name": "zicht/z-plugin-apc",
@@ -696,6 +700,27 @@
             "time": "2015-09-03 13:15:05"
         },
         {
+            "name": "zicht/z-plugin-opcache",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "svn://zon/projecten/zicht-libraries/z-plugin-opcache",
+                "reference": "/trunk/@76220"
+            },
+            "type": "library",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gerard van Helden",
+                    "email": "gerard@zicht.nl"
+                }
+            ],
+            "description": "Opcache plugin for Z",
+            "time": "2015-12-31 10:15:22"
+        },
+        {
             "name": "zicht/z-plugin-qa",
             "version": "dev-trunk",
             "source": {
@@ -867,7 +892,8 @@
         "zicht/z-plugin-docker": 20,
         "zicht/z-plugin-log": 20,
         "zicht/z-plugin-messages": 20,
-        "zicht/z-plugin-tunnel": 20
+        "zicht/z-plugin-tunnel": 20,
+        "zicht/z-plugin-opcache": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
