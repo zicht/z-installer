@@ -22,7 +22,8 @@
         "zicht/z-plugin-docker": "*@dev",
         "zicht/z-plugin-log": "dev-trunk",
         "zicht/z-plugin-messages": "dev-trunk",
-        "zicht/z-plugin-tunnel": "dev-trunk"
+        "zicht/z-plugin-tunnel": "dev-trunk",
+        "zicht/z-plugin-opcache": "dev-trunk"
     },
     "minimum-stability": "dev"
 }
