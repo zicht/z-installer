@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8fa62486b85bc76e14357d089f310a18",
-    "content-hash": "a211bf0c8199d170e0fdf08cdebe9376",
+    "hash": "74e7ccaaf14725e07742d48f923801f7",
+    "content-hash": "cc0af1c1cd49816d8a535d84189d519a",
     "packages": [
         {
             "name": "symfony/config",
@@ -555,6 +555,27 @@
             "time": "2014-04-18 16:17:00"
         },
         {
+            "name": "zicht/z-plugin-cron",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "svn://zon/projecten/zicht-libraries/z-plugin-cron",
+                "reference": "/trunk/@76267"
+            },
+            "type": "library",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gerard van Helden",
+                    "email": "gerard@zicht.nl"
+                }
+            ],
+            "description": "Cron plugin for Z",
+            "time": "2015-12-31 17:33:04"
+        },
+        {
             "name": "zicht/z-plugin-deploy",
             "version": "dev-trunk",
             "source": {
@@ -784,6 +805,25 @@
             "time": "2015-06-16 23:42:33"
         },
         {
+            "name": "zicht/z-plugin-solr",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "svn://zon/projecten/zicht-libraries/z-plugin-solr",
+                "reference": "/trunk/@76285"
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "scripts": {
+                "post-install-cmd": [],
+                "post-update-cmd": []
+            },
+            "description": "'solr' plugin for Z",
+            "time": "2016-01-04 12:22:28"
+        },
+        {
             "name": "zicht/z-plugin-svn",
             "version": "dev-trunk",
             "source": {
@@ -893,7 +933,9 @@
         "zicht/z-plugin-log": 20,
         "zicht/z-plugin-messages": 20,
         "zicht/z-plugin-tunnel": 20,
-        "zicht/z-plugin-opcache": 20
+        "zicht/z-plugin-opcache": 20,
+        "zicht/z-plugin-cron": 20,
+        "zicht/z-plugin-solr": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
