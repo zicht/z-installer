@@ -705,7 +705,7 @@
             "source": {
                 "type": "svn",
                 "url": "svn://zon/projecten/zicht-libraries/z-plugin-messages",
-                "reference": "/trunk/@68312"
+                "reference": "/trunk/@77416"
             },
             "type": "library",
             "license": [
@@ -718,7 +718,7 @@
                 }
             ],
             "description": "Messages plugin for Z",
-            "time": "2015-09-03 13:15:05"
+            "time": "2016-01-20 15:59:42"
         },
         {
             "name": "zicht/z-plugin-opcache",
