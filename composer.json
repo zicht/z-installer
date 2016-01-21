@@ -25,7 +25,8 @@
         "zicht/z-plugin-tunnel": "dev-trunk",
         "zicht/z-plugin-opcache": "dev-trunk",
         "zicht/z-plugin-cron": "dev-trunk",
-        "zicht/z-plugin-solr": "dev-trunk"
+        "zicht/z-plugin-solr": "dev-trunk",
+        "zicht/z-plugin-systemjs": "dev-trunk"
     },
     "minimum-stability": "dev"
 }

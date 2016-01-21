@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "74e7ccaaf14725e07742d48f923801f7",
-    "content-hash": "cc0af1c1cd49816d8a535d84189d519a",
+    "hash": "94be0a342b3e73d7bb966f4b280d81f4",
+    "content-hash": "a0589a4e0b6d08bb9e871bc7da33fab4",
     "packages": [
         {
             "name": "symfony/config",
@@ -866,6 +866,25 @@
             "time": "2015-03-06 11:28:53"
         },
         {
+            "name": "zicht/z-plugin-systemjs",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "svn://zon/projecten/zicht-libraries/z-plugin-systemjs",
+                "reference": "/trunk/@77555"
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "scripts": {
+                "post-install-cmd": [],
+                "post-update-cmd": []
+            },
+            "description": "'systemjs' plugin for Z",
+            "time": "2016-01-21 15:58:55"
+        },
+        {
             "name": "zicht/z-plugin-tunnel",
             "version": "dev-trunk",
             "source": {
@@ -935,7 +954,8 @@
         "zicht/z-plugin-tunnel": 20,
         "zicht/z-plugin-opcache": 20,
         "zicht/z-plugin-cron": 20,
-        "zicht/z-plugin-solr": 20
+        "zicht/z-plugin-solr": 20,
+        "zicht/z-plugin-systemjs": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
