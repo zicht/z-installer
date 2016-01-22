@@ -1,11 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
     "hash": "94be0a342b3e73d7bb966f4b280d81f4",
-    "content-hash": "a0589a4e0b6d08bb9e871bc7da33fab4",
     "packages": [
         {
             "name": "symfony/config",
@@ -871,7 +870,7 @@
             "source": {
                 "type": "svn",
                 "url": "svn://zon/projecten/zicht-libraries/z-plugin-systemjs",
-                "reference": "/trunk/@77555"
+                "reference": "/trunk/@77684"
             },
             "require": {
                 "php": ">=5.3.3"
@@ -882,7 +881,7 @@
                 "post-update-cmd": []
             },
             "description": "'systemjs' plugin for Z",
-            "time": "2016-01-21 15:58:55"
+            "time": "2016-01-22 17:28:06"
         },
         {
             "name": "zicht/z-plugin-tunnel",
