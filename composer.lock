@@ -870,7 +870,7 @@
             "source": {
                 "type": "svn",
                 "url": "svn://zon/projecten/zicht-libraries/z-plugin-systemjs",
-                "reference": "/trunk/@77684"
+                "reference": "/trunk/@78345"
             },
             "require": {
                 "php": ">=5.3.3"
@@ -881,7 +881,7 @@
                 "post-update-cmd": []
             },
             "description": "'systemjs' plugin for Z",
-            "time": "2016-01-22 17:28:06"
+            "time": "2016-02-08 12:30:49"
         },
         {
             "name": "zicht/z-plugin-tunnel",
