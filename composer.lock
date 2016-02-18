@@ -1,10 +1,11 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
     "hash": "94be0a342b3e73d7bb966f4b280d81f4",
+    "content-hash": "a0589a4e0b6d08bb9e871bc7da33fab4",
     "packages": [
         {
             "name": "symfony/config",
@@ -307,11 +308,11 @@
         },
         {
             "name": "zicht/util",
-            "version": "1.5.1",
+            "version": "1.5.2",
             "source": {
                 "type": "svn",
                 "url": "svn://zon/projecten/zicht-libraries/ZichtUtil",
-                "reference": "/tags/1.5.1/@59940"
+                "reference": "/tags/1.5.2/@77218"
             },
             "require": {
                 "php": ">=5.3"
@@ -332,7 +333,7 @@
                 }
             ],
             "description": "Low level utility classes",
-            "time": "2015-04-07 11:27:55"
+            "time": "2016-01-18 18:02:23"
         },
         {
             "name": "zicht/version",
@@ -517,7 +518,7 @@
             "source": {
                 "type": "svn",
                 "url": "svn://zon/projecten/zicht-libraries/z-plugin-content",
-                "reference": "/trunk/@74058"
+                "reference": "/trunk/@76224"
             },
             "type": "library",
             "license": [
@@ -530,7 +531,7 @@
                 }
             ],
             "description": "Content plugin for Z",
-            "time": "2015-11-24 17:46:56"
+            "time": "2015-12-31 11:13:35"
         },
         {
             "name": "zicht/z-plugin-core",
@@ -601,7 +602,7 @@
             "source": {
                 "type": "svn",
                 "url": "svn://zon/projecten/zicht-libraries/z-plugin-docker",
-                "reference": "/trunk/@70025"
+                "reference": "/trunk/@78423"
             },
             "type": "library",
             "license": [
@@ -614,7 +615,7 @@
                 }
             ],
             "description": "Docker plugin for Z",
-            "time": "2015-10-01 15:21:00"
+            "time": "2016-02-09 15:03:04"
         },
         {
             "name": "zicht/z-plugin-env",
@@ -622,7 +623,7 @@
             "source": {
                 "type": "svn",
                 "url": "svn://zon/projecten/zicht-libraries/z-plugin-env",
-                "reference": "/trunk/@64483"
+                "reference": "/trunk/@75082"
             },
             "require": {
                 "php": ">=5.3.3"
@@ -633,7 +634,7 @@
                 "post-update-cmd": []
             },
             "description": "'env' plugin for Z",
-            "time": "2015-06-29 12:10:24"
+            "time": "2015-12-08 21:14:18"
         },
         {
             "name": "zicht/z-plugin-interact",
@@ -828,7 +829,7 @@
             "source": {
                 "type": "svn",
                 "url": "svn://zon/projecten/zicht-libraries/z-plugin-svn",
-                "reference": "/trunk/@69881"
+                "reference": "/trunk/@79131"
             },
             "type": "library",
             "license": [
@@ -841,7 +842,7 @@
                 }
             ],
             "description": "SVN plugin for Z",
-            "time": "2015-09-29 09:47:39"
+            "time": "2016-02-18 14:09:20"
         },
         {
             "name": "zicht/z-plugin-symfony",
