@@ -602,7 +602,7 @@
             "source": {
                 "type": "svn",
                 "url": "svn://zon/projecten/zicht-libraries/z-plugin-docker",
-                "reference": "/trunk/@78423"
+                "reference": "/trunk/@81492"
             },
             "type": "library",
             "license": [
@@ -615,7 +615,7 @@
                 }
             ],
             "description": "Docker plugin for Z",
-            "time": "2016-02-09 15:03:04"
+            "time": "2016-03-22 10:16:06"
         },
         {
             "name": "zicht/z-plugin-env",
@@ -705,7 +705,7 @@
             "source": {
                 "type": "svn",
                 "url": "svn://zon/projecten/zicht-libraries/z-plugin-messages",
-                "reference": "/trunk/@77419"
+                "reference": "/trunk/@80498"
             },
             "type": "library",
             "license": [
@@ -718,7 +718,7 @@
                 }
             ],
             "description": "Messages plugin for Z",
-            "time": "2016-01-20 16:03:15"
+            "time": "2016-03-08 09:38:51"
         },
         {
             "name": "zicht/z-plugin-opcache",
@@ -871,7 +871,7 @@
             "source": {
                 "type": "svn",
                 "url": "svn://zon/projecten/zicht-libraries/z-plugin-systemjs",
-                "reference": "/trunk/@78345"
+                "reference": "/trunk/@81065"
             },
             "require": {
                 "php": ">=5.3.3"
@@ -882,7 +882,7 @@
                 "post-update-cmd": []
             },
             "description": "'systemjs' plugin for Z",
-            "time": "2016-02-08 12:30:49"
+            "time": "2016-03-16 11:32:11"
         },
         {
             "name": "zicht/z-plugin-tunnel",
