@@ -10,7 +10,7 @@
         "zicht/z-plugin-content": "^1",
         "zicht/z-plugin-core": "^1",
         "zicht/z-plugin-deploy": "^1",
-        "zicht/z-plugin-env": "^1",
+        "zicht/z-plugin-env": "^2",
         "zicht/z-plugin-interact": "^1",
         "zicht/z-plugin-lftp": "^1",
         "zicht/z-plugin-qa": "^1",

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "56bbe51edda62291d79d671d082b2d30",
-    "content-hash": "f87a7523155eef36bb9ec38b853d1dcf",
+    "hash": "fe5dd3aff788c00fc77eaf91dc0edbbe",
+    "content-hash": "e6fa6b135e3c09a99e7498a3c12c187a",
     "packages": [
         {
             "name": "symfony/config",
@@ -619,11 +619,11 @@
         },
         {
             "name": "zicht/z-plugin-env",
-            "version": "1.0.0",
+            "version": "2.0.0",
             "source": {
                 "type": "svn",
                 "url": "svn://zon/projecten/zicht-libraries/z-plugin-env",
-                "reference": "/tags/1.0.0/@35155"
+                "reference": "/tags/2.0.0/@82553"
             },
             "require": {
                 "php": ">=5.3.3"
@@ -634,7 +634,7 @@
                 "post-update-cmd": []
             },
             "description": "'env' plugin for Z",
-            "time": "2014-04-11 10:47:29"
+            "time": "2016-04-07 16:57:02"
         },
         {
             "name": "zicht/z-plugin-interact",
