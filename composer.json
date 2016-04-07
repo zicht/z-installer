@@ -26,7 +26,7 @@
         "zicht/z-plugin-opcache": "dev-trunk",
         "zicht/z-plugin-cron": "dev-trunk",
         "zicht/z-plugin-solr": "dev-trunk",
-        "zicht/z-plugin-systemjs": "dev-trunk"
+        "zicht/z-plugin-systemjs": "^1.0"
     },
     "minimum-stability": "dev"
 }
