@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "94be0a342b3e73d7bb966f4b280d81f4",
-    "content-hash": "a0589a4e0b6d08bb9e871bc7da33fab4",
+    "hash": "4e0192afd60e8887a445bebe7816b733",
+    "content-hash": "2c03884df882c999bd09e44f26acace7",
     "packages": [
         {
             "name": "symfony/config",
@@ -363,11 +363,11 @@
         },
         {
             "name": "zicht/z",
-            "version": "dev-trunk",
+            "version": "2.0.0",
             "source": {
                 "type": "svn",
                 "url": "svn://zon/projecten/zicht-libraries/z",
-                "reference": "/trunk/@76242"
+                "reference": "/tags/2.0.0/@82518"
             },
             "require": {
                 "php": ">=5.3.3",
@@ -405,7 +405,7 @@
                 "MIT"
             ],
             "description": "Z - The Zicht build tool",
-            "time": "2015-12-31 13:46:08"
+            "time": "2016-04-07 16:23:06"
         },
         {
             "name": "zicht/z-plugin-apc",
@@ -929,7 +929,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "zicht/z": 20,
         "zicht/version": 5,
         "zicht/z-plugin-apc": 20,
         "zicht/z-plugin-bower": 20,

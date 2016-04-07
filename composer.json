@@ -1,6 +1,6 @@
 {
     "require": {
-        "zicht/z": "dev-trunk@dev",
+        "zicht/z": "^2.0",
         "zicht/version": "1.1.0-rc.1@rc",
         "zicht/z-plugin-apc": "*@dev",
         "zicht/z-plugin-bower": "*@dev",
