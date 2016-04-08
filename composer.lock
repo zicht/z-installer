@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "26308a0e8d95666fa63d4f9afd150db7",
-    "content-hash": "47736301484bb9c615f71115df587cb5",
+    "hash": "a77c72e5e882a88e7ee99702d78451a5",
+    "content-hash": "4abd8bbb2d118129bdaf63b988823de4",
     "packages": [
         {
             "name": "symfony/config",
@@ -598,11 +598,11 @@
         },
         {
             "name": "zicht/z-plugin-docker",
-            "version": "1.0.0",
+            "version": "2.0.0",
             "source": {
                 "type": "svn",
                 "url": "svn://zon/projecten/zicht-libraries/z-plugin-docker",
-                "reference": "/tags/1.0.0/@76258"
+                "reference": "/tags/2.0.0/@82583"
             },
             "type": "library",
             "license": [
@@ -615,7 +615,7 @@
                 }
             ],
             "description": "Docker plugin for Z",
-            "time": "2015-12-31 16:22:12"
+            "time": "2016-04-08 10:48:36"
         },
         {
             "name": "zicht/z-plugin-env",

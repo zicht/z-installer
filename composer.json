@@ -19,7 +19,7 @@
         "zicht/z-plugin-svn": "^1",
         "zicht/z-plugin-symfony": "^1",
         "zicht/z-plugin-uglifyjs": "^1",
-        "zicht/z-plugin-docker": "^1",
+        "zicht/z-plugin-docker": "^2",
         "zicht/z-plugin-log": "^1",
         "zicht/z-plugin-messages": "^1",
         "zicht/z-plugin-tunnel": "^1",
