@@ -1,11 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
     "hash": "a77c72e5e882a88e7ee99702d78451a5",
-    "content-hash": "4abd8bbb2d118129bdaf63b988823de4",
     "packages": [
         {
             "name": "symfony/config",
@@ -308,11 +307,11 @@
         },
         {
             "name": "zicht/util",
-            "version": "1.5.2",
+            "version": "1.6.0",
             "source": {
                 "type": "svn",
                 "url": "svn://zon/projecten/zicht-libraries/ZichtUtil",
-                "reference": "/tags/1.5.2/@77218"
+                "reference": "/tags/1.6.0/@82504"
             },
             "require": {
                 "php": ">=5.3"
@@ -333,7 +332,7 @@
                 }
             ],
             "description": "Low level utility classes",
-            "time": "2016-01-18 18:02:23"
+            "time": "2016-04-07 15:05:14"
         },
         {
             "name": "zicht/version",
@@ -514,11 +513,11 @@
         },
         {
             "name": "zicht/z-plugin-content",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "svn",
                 "url": "svn://zon/projecten/zicht-libraries/z-plugin-content",
-                "reference": "/tags/1.0.0/@82533"
+                "reference": "/tags/1.1.0/@84777"
             },
             "type": "library",
             "license": [
@@ -531,7 +530,7 @@
                 }
             ],
             "description": "Content plugin for Z",
-            "time": "2016-04-07 16:40:18"
+            "time": "2016-05-10 14:08:56"
         },
         {
             "name": "zicht/z-plugin-core",
