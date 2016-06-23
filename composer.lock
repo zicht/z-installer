@@ -1,10 +1,11 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
     "hash": "a77c72e5e882a88e7ee99702d78451a5",
+    "content-hash": "4abd8bbb2d118129bdaf63b988823de4",
     "packages": [
         {
             "name": "symfony/config",
@@ -17,7 +18,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://remote.satis.dev3.zicht.intern/packages/symfony/Config.git/v2.7.7.zip",
-                "reference": null,
+                "reference": "02ec2780d62cb085deadec01e5991588a718c68a",
                 "shasum": null
             },
             "require": {
@@ -66,7 +67,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://remote.satis.dev3.zicht.intern/packages/symfony/Console.git/v2.7.7.zip",
-                "reference": null,
+                "reference": "b66f2c74f2a0a6a158d88ae793197d408e7ce36d",
                 "shasum": null
             },
             "require": {
@@ -124,7 +125,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://remote.satis.dev3.zicht.intern/packages/symfony/Filesystem.git/v2.7.7.zip",
-                "reference": null,
+                "reference": "99fa04941d2ce6cefab87bb0a4b69b136819c8d1",
                 "shasum": null
             },
             "require": {
@@ -172,7 +173,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://remote.satis.dev3.zicht.intern/packages/symfony/Finder.git/v2.7.7.zip",
-                "reference": null,
+                "reference": "25022d2c5b70179e926ffb2c86b8f2927eed8e8b",
                 "shasum": null
             },
             "require": {
@@ -220,7 +221,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://remote.satis.dev3.zicht.intern/packages/symfony/Process.git/v2.7.7.zip",
-                "reference": null,
+                "reference": "18bbb9330c7a36ca2a8486432a3f3a6aab7bfb86",
                 "shasum": null
             },
             "require": {
@@ -268,7 +269,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://remote.satis.dev3.zicht.intern/packages/symfony/Yaml.git/v2.7.7.zip",
-                "reference": null,
+                "reference": "c5a3af6baa1e12ddf8c5bc7934d1b3111dc6d79b",
                 "shasum": null
             },
             "require": {
@@ -721,11 +722,11 @@
         },
         {
             "name": "zicht/z-plugin-messages",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "svn",
                 "url": "svn://zon/projecten/zicht-libraries/z-plugin-messages",
-                "reference": "/tags/1.0.0/@82542"
+                "reference": "/tags/1.1.0/@85879"
             },
             "type": "library",
             "license": [
@@ -738,7 +739,7 @@
                 }
             ],
             "description": "Messages plugin for Z",
-            "time": "2016-04-07 16:42:32"
+            "time": "2016-05-31 11:29:50"
         },
         {
             "name": "zicht/z-plugin-opcache",
