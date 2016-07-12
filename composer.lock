@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a77c72e5e882a88e7ee99702d78451a5",
-    "content-hash": "4abd8bbb2d118129bdaf63b988823de4",
+    "hash": "2d9294a334324e231ee25f9b0e9b0b3d",
+    "content-hash": "dbd58cc2f97d5955250d7ccbba6a4900",
     "packages": [
         {
             "name": "symfony/config",
@@ -310,8 +310,8 @@
             "name": "zicht/util",
             "version": "1.6.0",
             "source": {
-                "type": "svn",
-                "url": "svn://zon/projecten/zicht-libraries/ZichtUtil",
+                "type": "git",
+                "url": "git.zicht.nl:zicht/ZichtUtil",
                 "reference": "/tags/1.6.0/@82504"
             },
             "require": {
@@ -339,9 +339,15 @@
             "name": "zicht/version",
             "version": "1.1.0-rc.1",
             "source": {
-                "type": "svn",
-                "url": "svn://zon/projecten/zicht-libraries/ZichtVersion",
-                "reference": "/tags/1.1.0-rc.1/@36548"
+                "type": "git",
+                "url": "git.zicht.nl:zicht/ZichtVersion",
+                "reference": "bd9baf5e569bb7554b7a0d71d6a73ede79150c61"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://satis.dev3.intern/dist/zicht/ZichtVersion/1.1.0-rc.1.zip",
+                "reference": null,
+                "shasum": null
             },
             "type": "library",
             "autoload": {
@@ -359,15 +365,21 @@
                 }
             ],
             "description": "Versioning logic following SemVer.org",
-            "time": "2014-05-03 16:06:16"
+            "time": "2014-05-03 14:06:16"
         },
         {
             "name": "zicht/z",
             "version": "2.0.0",
             "source": {
-                "type": "svn",
-                "url": "svn://zon/projecten/zicht-libraries/z",
-                "reference": "/tags/2.0.0/@82518"
+                "type": "git",
+                "url": "git.zicht.nl:zicht/z",
+                "reference": "0f603309a4bedfb3a23b1441883dbbd00cd0a796"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://satis.dev3.intern/dist/zicht/z/2.0.0.zip",
+                "reference": null,
+                "shasum": null
             },
             "require": {
                 "php": ">=5.3.3",
@@ -405,15 +417,21 @@
                 "MIT"
             ],
             "description": "Z - The Zicht build tool",
-            "time": "2016-04-07 16:23:06"
+            "time": "2016-04-07 14:23:06"
         },
         {
             "name": "zicht/z-plugin-apc",
             "version": "1.0.0",
             "source": {
-                "type": "svn",
-                "url": "svn://zon/projecten/zicht-libraries/z-plugin-apc",
-                "reference": "/tags/1.0.0/@82527"
+                "type": "git",
+                "url": "git.zicht.nl:zicht/z-plugin-apc",
+                "reference": "4ddb95acffbffea18471c796278ebc714605d38d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://satis.dev3.intern/dist/zicht/z-plugin-apc/1.0.0.zip",
+                "reference": null,
+                "shasum": null
             },
             "type": "library",
             "license": [
@@ -426,15 +444,21 @@
                 }
             ],
             "description": "APC plugin for Z",
-            "time": "2016-04-07 16:35:35"
+            "time": "2016-04-07 14:35:35"
         },
         {
             "name": "zicht/z-plugin-bower",
             "version": "1.0.0",
             "source": {
-                "type": "svn",
-                "url": "svn://zon/projecten/zicht-libraries/z-plugin-bower",
-                "reference": "/tags/1.0.0/@82529"
+                "type": "git",
+                "url": "git.zicht.nl:zicht/z-plugin-bower",
+                "reference": "a063384fa167d458f70eaef2b5fefd733dd173fd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://satis.dev3.intern/dist/zicht/z-plugin-bower/1.0.0.zip",
+                "reference": null,
+                "shasum": null
             },
             "type": "library",
             "license": [
@@ -447,15 +471,21 @@
                 }
             ],
             "description": "Bower plugin for Z",
-            "time": "2016-04-07 16:36:45"
+            "time": "2016-04-07 14:36:45"
         },
         {
             "name": "zicht/z-plugin-build",
             "version": "1.0.0",
             "source": {
-                "type": "svn",
-                "url": "svn://zon/projecten/zicht-libraries/z-plugin-build",
-                "reference": "/tags/1.0.0/@82530"
+                "type": "git",
+                "url": "git.zicht.nl:zicht/z-plugin-build",
+                "reference": "22b3cd85eebb9f4608bacbf3236316da7d938e9d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://satis.dev3.intern/dist/zicht/z-plugin-build/1.0.0.zip",
+                "reference": null,
+                "shasum": null
             },
             "type": "library",
             "license": [
@@ -468,15 +498,21 @@
                 }
             ],
             "description": "Build plugin for Z",
-            "time": "2016-04-07 16:39:29"
+            "time": "2016-04-07 14:39:29"
         },
         {
             "name": "zicht/z-plugin-chmod",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
-                "type": "svn",
-                "url": "svn://zon/projecten/zicht-libraries/z-plugin-chmod",
-                "reference": "/tags/1.0.0/@82531"
+                "type": "git",
+                "url": "git.zicht.nl:zicht/z-plugin-chmod",
+                "reference": "0a912cb4c58848857a8b51c647182085a0d30d3d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://satis.dev3.intern/dist/zicht/z-plugin-chmod/1.0.1.zip",
+                "reference": null,
+                "shasum": null
             },
             "type": "library",
             "license": [
@@ -489,15 +525,21 @@
                 }
             ],
             "description": "chmod plugin for Z",
-            "time": "2016-04-07 16:39:45"
+            "time": "2016-06-15 10:29:35"
         },
         {
             "name": "zicht/z-plugin-ci",
             "version": "1.0.0",
             "source": {
-                "type": "svn",
-                "url": "svn://zon/projecten/zicht-libraries/z-plugin-ci",
-                "reference": "/tags/1.0.0/@82532"
+                "type": "git",
+                "url": "git.zicht.nl:zicht/z-plugin-ci",
+                "reference": "1f0470a0c77ff5c91117ff9d6b6866f5b371beea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://satis.dev3.intern/dist/zicht/z-plugin-ci/1.0.0.zip",
+                "reference": null,
+                "shasum": null
             },
             "type": "library",
             "license": [
@@ -510,15 +552,21 @@
                 }
             ],
             "description": "Continuous Integration plugin for Z",
-            "time": "2016-04-07 16:40:02"
+            "time": "2016-04-07 14:40:02"
         },
         {
             "name": "zicht/z-plugin-content",
             "version": "1.1.0",
             "source": {
-                "type": "svn",
-                "url": "svn://zon/projecten/zicht-libraries/z-plugin-content",
-                "reference": "/tags/1.1.0/@84777"
+                "type": "git",
+                "url": "git.zicht.nl:zicht/z-plugin-content",
+                "reference": "fdf31feaf05db318c014c7e44dc47c0cd53e46ca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://satis.dev3.intern/dist/zicht/z-plugin-content/1.1.0.zip",
+                "reference": null,
+                "shasum": null
             },
             "type": "library",
             "license": [
@@ -531,15 +579,21 @@
                 }
             ],
             "description": "Content plugin for Z",
-            "time": "2016-05-10 14:08:56"
+            "time": "2016-05-10 12:08:56"
         },
         {
             "name": "zicht/z-plugin-core",
             "version": "1.0.0",
             "source": {
-                "type": "svn",
-                "url": "svn://zon/projecten/zicht-libraries/z-plugin-core",
-                "reference": "/tags/1.0.0/@82535"
+                "type": "git",
+                "url": "git.zicht.nl:zicht/z-plugin-core",
+                "reference": "41dd2786fa9c488768bdf3189f254c691617eef4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://satis.dev3.intern/dist/zicht/z-plugin-core/1.0.0.zip",
+                "reference": null,
+                "shasum": null
             },
             "type": "library",
             "license": [
@@ -552,15 +606,21 @@
                 }
             ],
             "description": "Core plugin for Z",
-            "time": "2016-04-07 16:40:35"
+            "time": "2016-04-07 14:40:35"
         },
         {
             "name": "zicht/z-plugin-cron",
             "version": "1.0.0",
             "source": {
-                "type": "svn",
-                "url": "svn://zon/projecten/zicht-libraries/z-plugin-cron",
-                "reference": "/tags/1.0.0/@82536"
+                "type": "git",
+                "url": "git.zicht.nl:zicht/z-plugin-cron",
+                "reference": "3101f99bd812260c2d3f9c65a6dc1edfe2059b7f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://satis.dev3.intern/dist/zicht/z-plugin-cron/1.0.0.zip",
+                "reference": null,
+                "shasum": null
             },
             "type": "library",
             "license": [
@@ -573,15 +633,21 @@
                 }
             ],
             "description": "Cron plugin for Z",
-            "time": "2016-04-07 16:40:52"
+            "time": "2016-04-07 14:40:52"
         },
         {
             "name": "zicht/z-plugin-deploy",
             "version": "1.0.0",
             "source": {
-                "type": "svn",
-                "url": "svn://zon/projecten/zicht-libraries/z-plugin-deploy",
-                "reference": "/tags/1.0.0/@82537"
+                "type": "git",
+                "url": "git.zicht.nl:zicht/z-plugin-deploy",
+                "reference": "dc9426bc990020b6d21f71321c1537771f0a67d7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://satis.dev3.intern/dist/zicht/z-plugin-deploy/1.0.0.zip",
+                "reference": null,
+                "shasum": null
             },
             "type": "library",
             "license": [
@@ -594,15 +660,21 @@
                 }
             ],
             "description": "Deploy plugin for Z",
-            "time": "2016-04-07 16:41:08"
+            "time": "2016-04-07 14:41:08"
         },
         {
             "name": "zicht/z-plugin-docker",
-            "version": "2.0.0",
+            "version": "2.1.0",
             "source": {
-                "type": "svn",
-                "url": "svn://zon/projecten/zicht-libraries/z-plugin-docker",
-                "reference": "/tags/2.0.0/@82583"
+                "type": "git",
+                "url": "git.zicht.nl:zicht/z-plugin-docker",
+                "reference": "87867f1e0c7a36f7af6504138aaaeaac32a383ca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://satis.dev3.intern/dist/zicht/z-plugin-docker/2.1.0.zip",
+                "reference": null,
+                "shasum": null
             },
             "type": "library",
             "license": [
@@ -615,15 +687,21 @@
                 }
             ],
             "description": "Docker plugin for Z",
-            "time": "2016-04-08 10:48:36"
+            "time": "2016-06-15 10:11:05"
         },
         {
             "name": "zicht/z-plugin-env",
-            "version": "2.0.0",
+            "version": "2.1.0",
             "source": {
-                "type": "svn",
-                "url": "svn://zon/projecten/zicht-libraries/z-plugin-env",
-                "reference": "/tags/2.0.0/@82553"
+                "type": "git",
+                "url": "git.zicht.nl:zicht/z-plugin-env",
+                "reference": "758a65ca8a64b4edf548e70ac20b14a21979875a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://satis.dev3.intern/dist/zicht/z-plugin-env/2.1.0.zip",
+                "reference": null,
+                "shasum": null
             },
             "require": {
                 "php": ">=5.3.3"
@@ -634,15 +712,21 @@
                 "post-update-cmd": []
             },
             "description": "'env' plugin for Z",
-            "time": "2016-04-07 16:57:02"
+            "time": "2016-06-10 09:35:34"
         },
         {
             "name": "zicht/z-plugin-git",
             "version": "1.0.0",
             "source": {
-                "type": "svn",
-                "url": "svn://zon/projecten/zicht-libraries/z-plugin-git",
-                "reference": "/tags/1.0.0/@82538"
+                "type": "git",
+                "url": "git.zicht.nl:zicht/z-plugin-git",
+                "reference": "cab449307d1e439fccc3bf1fd353a3ecd006e618"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://satis.dev3.intern/dist/zicht/z-plugin-git/1.0.0.zip",
+                "reference": null,
+                "shasum": null
             },
             "type": "library",
             "license": [
@@ -655,15 +739,21 @@
                 }
             ],
             "description": "GIT plugin for Z",
-            "time": "2016-04-07 16:41:25"
+            "time": "2016-04-07 14:41:25"
         },
         {
             "name": "zicht/z-plugin-interact",
             "version": "1.0.0",
             "source": {
-                "type": "svn",
-                "url": "svn://zon/projecten/zicht-libraries/z-plugin-interact",
-                "reference": "/tags/1.0.0/@82539"
+                "type": "git",
+                "url": "git.zicht.nl:zicht/z-plugin-interact",
+                "reference": "3c6ebe70ba1af0e2132cfb2a6f27bd85a88ea92a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://satis.dev3.intern/dist/zicht/z-plugin-interact/1.0.0.zip",
+                "reference": null,
+                "shasum": null
             },
             "type": "library",
             "license": [
@@ -676,15 +766,21 @@
                 }
             ],
             "description": "Console interaction plugin for Z",
-            "time": "2016-04-07 16:41:42"
+            "time": "2016-04-07 14:41:42"
         },
         {
             "name": "zicht/z-plugin-lftp",
             "version": "1.0.0",
             "source": {
-                "type": "svn",
-                "url": "svn://zon/projecten/zicht-libraries/z-plugin-lftp",
-                "reference": "/tags/1.0.0/@82540"
+                "type": "git",
+                "url": "git.zicht.nl:zicht/z-plugin-lftp",
+                "reference": "edd421821258fcbb813f2453c07462b800c7875e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://satis.dev3.intern/dist/zicht/z-plugin-lftp/1.0.0.zip",
+                "reference": null,
+                "shasum": null
             },
             "type": "library",
             "license": [
@@ -697,15 +793,21 @@
                 }
             ],
             "description": "LFTP sync plugin for Z",
-            "time": "2016-04-07 16:41:59"
+            "time": "2016-04-07 14:41:59"
         },
         {
             "name": "zicht/z-plugin-log",
             "version": "1.0.0",
             "source": {
-                "type": "svn",
-                "url": "svn://zon/projecten/zicht-libraries/z-plugin-log",
-                "reference": "/tags/1.0.0/@82541"
+                "type": "git",
+                "url": "git.zicht.nl:zicht/z-plugin-log",
+                "reference": "6aeb53bce80326338179a12accf03c5542bdecc3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://satis.dev3.intern/dist/zicht/z-plugin-log/1.0.0.zip",
+                "reference": null,
+                "shasum": null
             },
             "type": "library",
             "license": [
@@ -718,15 +820,21 @@
                 }
             ],
             "description": "Log plugin for Z",
-            "time": "2016-04-07 16:42:16"
+            "time": "2016-04-07 14:42:16"
         },
         {
             "name": "zicht/z-plugin-messages",
             "version": "1.1.0",
             "source": {
-                "type": "svn",
-                "url": "svn://zon/projecten/zicht-libraries/z-plugin-messages",
-                "reference": "/tags/1.1.0/@85879"
+                "type": "git",
+                "url": "git.zicht.nl:zicht/z-plugin-messages",
+                "reference": "888ed1452d81721ac06c9cc9addddd5b7c8aec6e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://satis.dev3.intern/dist/zicht/z-plugin-messages/1.1.0.zip",
+                "reference": null,
+                "shasum": null
             },
             "type": "library",
             "license": [
@@ -739,15 +847,21 @@
                 }
             ],
             "description": "Messages plugin for Z",
-            "time": "2016-05-31 11:29:50"
+            "time": "2016-05-31 09:29:50"
         },
         {
             "name": "zicht/z-plugin-opcache",
             "version": "1.0.0",
             "source": {
-                "type": "svn",
-                "url": "svn://zon/projecten/zicht-libraries/z-plugin-opcache",
-                "reference": "/tags/1.0.0/@82543"
+                "type": "git",
+                "url": "git.zicht.nl:zicht/z-plugin-opcache",
+                "reference": "b203f6e3cf8d8fe5e06c40950b20874be546204c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://satis.dev3.intern/dist/zicht/z-plugin-opcache/1.0.0.zip",
+                "reference": null,
+                "shasum": null
             },
             "type": "library",
             "license": [
@@ -760,15 +874,21 @@
                 }
             ],
             "description": "Opcache plugin for Z",
-            "time": "2016-04-07 16:42:48"
+            "time": "2016-04-07 14:42:48"
         },
         {
             "name": "zicht/z-plugin-qa",
             "version": "1.0.0",
             "source": {
-                "type": "svn",
-                "url": "svn://zon/projecten/zicht-libraries/z-plugin-qa",
-                "reference": "/tags/1.0.0/@82544"
+                "type": "git",
+                "url": "git.zicht.nl:zicht/z-plugin-qa",
+                "reference": "a06063e1bd5314760cad7f24420549773aa4294f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://satis.dev3.intern/dist/zicht/z-plugin-qa/1.0.0.zip",
+                "reference": null,
+                "shasum": null
             },
             "type": "library",
             "license": [
@@ -781,15 +901,21 @@
                 }
             ],
             "description": "Quality Assurance plugin for Z",
-            "time": "2016-04-07 16:43:05"
+            "time": "2016-04-07 14:43:05"
         },
         {
             "name": "zicht/z-plugin-rsync",
             "version": "1.0.0",
             "source": {
-                "type": "svn",
-                "url": "svn://zon/projecten/zicht-libraries/z-plugin-rsync",
-                "reference": "/tags/1.0.0/@82545"
+                "type": "git",
+                "url": "git.zicht.nl:zicht/z-plugin-rsync",
+                "reference": "419b87e1ddbb6ca813933054a5e3f69b0b567fd9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://satis.dev3.intern/dist/zicht/z-plugin-rsync/1.0.0.zip",
+                "reference": null,
+                "shasum": null
             },
             "type": "library",
             "license": [
@@ -802,15 +928,21 @@
                 }
             ],
             "description": "rsync sync plugin for Z",
-            "time": "2016-04-07 16:43:22"
+            "time": "2016-04-07 14:43:22"
         },
         {
             "name": "zicht/z-plugin-sass",
             "version": "1.0.0",
             "source": {
-                "type": "svn",
-                "url": "svn://zon/projecten/zicht-libraries/z-plugin-sass",
-                "reference": "/tags/1.0.0/@82524"
+                "type": "git",
+                "url": "git.zicht.nl:zicht/z-plugin-sass",
+                "reference": "b527d38fb8423f87b1feb426d0f86aba7e13842e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://satis.dev3.intern/dist/zicht/z-plugin-sass/1.0.0.zip",
+                "reference": null,
+                "shasum": null
             },
             "type": "library",
             "license": [
@@ -823,15 +955,21 @@
                 }
             ],
             "description": "Sass plugin for Z",
-            "time": "2016-04-07 16:28:06"
+            "time": "2016-04-07 14:28:06"
         },
         {
             "name": "zicht/z-plugin-solr",
-            "version": "1.0.0",
+            "version": "1.0.2",
             "source": {
-                "type": "svn",
-                "url": "svn://zon/projecten/zicht-libraries/z-plugin-solr",
-                "reference": "/tags/1.0.0/@82546"
+                "type": "git",
+                "url": "git.zicht.nl:zicht/z-plugin-solr",
+                "reference": "2a2ebf32b5b42f799bf6209296a92e0ad9efc135"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://satis.dev3.intern/dist/zicht/z-plugin-solr/1.0.2.zip",
+                "reference": null,
+                "shasum": null
             },
             "require": {
                 "php": ">=5.3.3"
@@ -842,15 +980,21 @@
                 "post-update-cmd": []
             },
             "description": "'solr' plugin for Z",
-            "time": "2016-04-07 16:43:39"
+            "time": "2016-06-23 09:33:38"
         },
         {
             "name": "zicht/z-plugin-svn",
             "version": "1.0.0",
             "source": {
-                "type": "svn",
-                "url": "svn://zon/projecten/zicht-libraries/z-plugin-svn",
-                "reference": "/tags/1.0.0/@82547"
+                "type": "git",
+                "url": "git.zicht.nl:zicht/z-plugin-svn",
+                "reference": "b2580624b8e957ba646cf58350b9f5201ba1df5b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://satis.dev3.intern/dist/zicht/z-plugin-svn/1.0.0.zip",
+                "reference": null,
+                "shasum": null
             },
             "type": "library",
             "license": [
@@ -863,15 +1007,21 @@
                 }
             ],
             "description": "SVN plugin for Z",
-            "time": "2016-04-07 16:43:55"
+            "time": "2016-04-07 14:43:55"
         },
         {
             "name": "zicht/z-plugin-symfony",
             "version": "1.0.0",
             "source": {
-                "type": "svn",
-                "url": "svn://zon/projecten/zicht-libraries/z-plugin-symfony",
-                "reference": "/tags/1.0.0/@82548"
+                "type": "git",
+                "url": "git.zicht.nl:zicht/z-plugin-symfony",
+                "reference": "d0ab539d3e148bfb9436a9867a5ef72f2c5fb88c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://satis.dev3.intern/dist/zicht/z-plugin-symfony/1.0.0.zip",
+                "reference": null,
+                "shasum": null
             },
             "type": "library",
             "license": [
@@ -884,15 +1034,21 @@
                 }
             ],
             "description": "Deployment utils for Symfony Z plugin",
-            "time": "2016-04-07 16:44:12"
+            "time": "2016-04-07 14:44:12"
         },
         {
             "name": "zicht/z-plugin-systemjs",
             "version": "1.0.0",
             "source": {
-                "type": "svn",
-                "url": "svn://zon/projecten/zicht-libraries/z-plugin-systemjs",
-                "reference": "/tags/1.0.0/@82517"
+                "type": "git",
+                "url": "git.zicht.nl:zicht/z-plugin-systemjs",
+                "reference": "c5cd877c732b1cd31dd06fa1db30040d15f94f45"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://satis.dev3.intern/dist/zicht/z-plugin-systemjs/1.0.0.zip",
+                "reference": null,
+                "shasum": null
             },
             "require": {
                 "php": ">=5.3.3"
@@ -903,15 +1059,21 @@
                 "post-update-cmd": []
             },
             "description": "'systemjs' plugin for Z",
-            "time": "2016-04-07 16:18:52"
+            "time": "2016-04-07 14:18:52"
         },
         {
             "name": "zicht/z-plugin-tunnel",
             "version": "1.0.0",
             "source": {
-                "type": "svn",
-                "url": "svn://zon/projecten/zicht-libraries/z-plugin-tunnel",
-                "reference": "/tags/1.0.0/@82549"
+                "type": "git",
+                "url": "git.zicht.nl:zicht/z-plugin-tunnel",
+                "reference": "d82f3838cded84d8ede94ec9c910aa30cdf26cbe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://satis.dev3.intern/dist/zicht/z-plugin-tunnel/1.0.0.zip",
+                "reference": null,
+                "shasum": null
             },
             "require": {
                 "php": ">=5.3.3"
@@ -922,15 +1084,21 @@
                 "post-update-cmd": []
             },
             "description": "'ssh tunnel' plugin for Z",
-            "time": "2016-04-07 16:44:29"
+            "time": "2016-04-07 14:44:29"
         },
         {
             "name": "zicht/z-plugin-uglifyjs",
             "version": "1.0.0",
             "source": {
-                "type": "svn",
-                "url": "svn://zon/projecten/zicht-libraries/z-plugin-uglifyjs",
-                "reference": "/tags/1.0.0/@82550"
+                "type": "git",
+                "url": "git.zicht.nl:zicht/z-plugin-uglifyjs",
+                "reference": "21385a432e76f9a702d51110f6677ac620faaeb9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://satis.dev3.intern/dist/zicht/z-plugin-uglifyjs/1.0.0.zip",
+                "reference": null,
+                "shasum": null
             },
             "type": "library",
             "license": [
@@ -943,7 +1111,7 @@
                 }
             ],
             "description": "Uglifyjs plugin for Z",
-            "time": "2016-04-07 16:44:46"
+            "time": "2016-04-07 14:44:46"
         }
     ],
     "packages-dev": [],
