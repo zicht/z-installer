@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2d9294a334324e231ee25f9b0e9b0b3d",
-    "content-hash": "dbd58cc2f97d5955250d7ccbba6a4900",
+    "hash": "2c93397d48a10843d9973c29fb9c6e1d",
+    "content-hash": "11636e23b9319ce5d3230158134db985",
     "packages": [
         {
             "name": "symfony/config",
@@ -446,7 +446,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z/2.0.3.zip",
-                "reference": null,
+                "reference": "861cfc50d2445900c46493fdd446fab94b093f1d",
                 "shasum": null
             },
             "require": {
@@ -1180,6 +1180,31 @@
             ],
             "description": "Uglifyjs plugin for Z",
             "time": "2016-04-07 14:44:46"
+        },
+        {
+            "name": "zicht/z-plugin-watch",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "git.zicht.nl:zicht/z-plugin-watch",
+                "reference": "8a61907ed193c7daa9ce634befe44edd34554e10"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://satis.dev3.intern/dist/zicht/z-plugin-watch/1.1.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "scripts": {
+                "post-install-cmd": [],
+                "post-update-cmd": []
+            },
+            "description": "'zwatch' plugin for Z",
+            "time": "2016-07-22 15:10:36"
         }
     ],
     "packages-dev": [],
