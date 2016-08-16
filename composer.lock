@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2c93397d48a10843d9973c29fb9c6e1d",
-    "content-hash": "11636e23b9319ce5d3230158134db985",
+    "hash": "39e6377cd0ba4ab4c73220037c1cc724",
+    "content-hash": "de8d39600cb0742a1f02cd0800ffcc4e",
     "packages": [
         {
             "name": "symfony/config",
@@ -1155,6 +1155,31 @@
             "time": "2016-04-07 14:44:29"
         },
         {
+            "name": "zicht/z-plugin-typescript",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "git.zicht.nl:zicht/z-plugin-typescript",
+                "reference": "fb70be8f40bf78d13262ae393d56fa0a43038cd1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://satis.dev3.intern/dist/zicht/z-plugin-typescript/1.0.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "scripts": {
+                "post-install-cmd": [],
+                "post-update-cmd": []
+            },
+            "description": "'typescript' plugin for Z",
+            "time": "2016-08-16 14:48:48"
+        },
+        {
             "name": "zicht/z-plugin-uglifyjs",
             "version": "1.0.0",
             "source": {
@@ -1192,7 +1217,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-watch/1.1.1.zip",
-                "reference": null,
+                "reference": "8a61907ed193c7daa9ce634befe44edd34554e10",
                 "shasum": null
             },
             "require": {

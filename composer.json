@@ -28,7 +28,8 @@
         "zicht/z-plugin-solr": "^1",
         "zicht/z-plugin-systemjs": "^1.0",
         "zicht/z-plugin-git": "^1.0",
-        "zicht/z-plugin-watch": "^1.1"
+        "zicht/z-plugin-watch": "^1.1",
+        "zicht/z-plugin-typescript": "^1.0"
     },
     "minimum-stability": "stable"
 }
