@@ -1156,15 +1156,15 @@
         },
         {
             "name": "zicht/z-plugin-typescript",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "git.zicht.nl:zicht/z-plugin-typescript",
-                "reference": "5b194c87bb91cb8494b6984f06177f683a33aa5c"
+                "reference": "a02ad16388137155eabb13afe7e718bfe9d43dd3"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://satis.dev3.intern/dist/zicht/z-plugin-typescript/1.0.2.zip",
+                "url": "http://satis.dev3.intern/dist/zicht/z-plugin-typescript/1.0.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1177,7 +1177,7 @@
                 "post-update-cmd": []
             },
             "description": "'typescript' plugin for Z",
-            "time": "2016-08-18 12:34:51"
+            "time": "2016-08-18 12:41:12"
         },
         {
             "name": "zicht/z-plugin-uglifyjs",
