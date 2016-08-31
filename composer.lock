@@ -624,16 +624,16 @@
         },
         {
             "name": "zicht/z-plugin-content",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "git.zicht.nl:zicht/z-plugin-content",
-                "reference": "fdf31feaf05db318c014c7e44dc47c0cd53e46ca"
+                "reference": "73ba42c8ad2e04bcf20c0c22bd0f280b80f0ecd6"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://satis.dev3.intern/dist/zicht/z-plugin-content/1.1.0.zip",
-                "reference": "fdf31feaf05db318c014c7e44dc47c0cd53e46ca",
+                "url": "http://satis.dev3.intern/dist/zicht/z-plugin-content/1.1.1.zip",
+                "reference": null,
                 "shasum": null
             },
             "type": "library",
@@ -647,7 +647,7 @@
                 }
             ],
             "description": "Content plugin for Z",
-            "time": "2016-05-10 12:08:56"
+            "time": "2016-08-31 08:25:29"
         },
         {
             "name": "zicht/z-plugin-core",
@@ -1165,7 +1165,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-typescript/1.0.3.zip",
-                "reference": null,
+                "reference": "a02ad16388137155eabb13afe7e718bfe9d43dd3",
                 "shasum": null
             },
             "require": {
