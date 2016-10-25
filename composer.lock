@@ -437,16 +437,16 @@
         },
         {
             "name": "zicht/z",
-            "version": "2.0.3",
+            "version": "2.0.5",
             "source": {
                 "type": "git",
                 "url": "git.zicht.nl:zicht/z",
-                "reference": "861cfc50d2445900c46493fdd446fab94b093f1d"
+                "reference": "54439eae05bad54f4127726a77e068d8376d4e6f"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://satis.dev3.intern/dist/zicht/z/2.0.3.zip",
-                "reference": "861cfc50d2445900c46493fdd446fab94b093f1d",
+                "url": "http://satis.dev3.intern/dist/zicht/z/2.0.5.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -485,7 +485,7 @@
                 "MIT"
             ],
             "description": "Z - The Zicht build tool",
-            "time": "2016-07-18 12:10:55"
+            "time": "2016-10-24 10:05:29"
         },
         {
             "name": "zicht/z-plugin-apc",
@@ -1165,7 +1165,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-typescript/1.0.4.zip",
-                "reference": null,
+                "reference": "80e026dee047df48232e47797e7ac7e0f3f3ac6a",
                 "shasum": null
             },
             "require": {
