@@ -219,7 +219,7 @@
             "version": "v1.2.0",
             "source": {
                 "type": "git",
-                "url": "zichter@dev3:github/symfony/polyfill-mbstring.git",
+                "url": "git@github.com:symfony/polyfill-mbstring",
                 "reference": "630ad16fd18f79b367449a0083085f2952242ed9"
             },
             "dist": {
@@ -373,7 +373,7 @@
             "version": "1.7.0",
             "source": {
                 "type": "git",
-                "url": "git.zicht.nl:zicht/ZichtUtil",
+                "url": "git@github.com:zicht/util",
                 "reference": "5b11d9db9cd36cbab2e4ff5ded883485d5ccb3cc"
             },
             "dist": {
@@ -408,7 +408,7 @@
             "version": "1.1.0-rc.1",
             "source": {
                 "type": "git",
-                "url": "git.zicht.nl:zicht/ZichtVersion",
+                "url": "git@github.com:zicht/version",
                 "reference": "bd9baf5e569bb7554b7a0d71d6a73ede79150c61"
             },
             "dist": {
@@ -437,15 +437,15 @@
         },
         {
             "name": "zicht/z",
-            "version": "2.0.5",
+            "version": "2.0.7",
             "source": {
                 "type": "git",
-                "url": "git.zicht.nl:zicht/z",
-                "reference": "54439eae05bad54f4127726a77e068d8376d4e6f"
+                "url": "git@github.com:zicht/z",
+                "reference": "6b790a9daed8891ab97e6550031d705d520f684d"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://satis.dev3.intern/dist/zicht/z/2.0.5.zip",
+                "url": "http://satis.dev3.intern/dist/zicht/z/2.0.7.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -485,14 +485,14 @@
                 "MIT"
             ],
             "description": "Z - The Zicht build tool",
-            "time": "2016-10-24 10:05:29"
+            "time": "2016-11-28 12:21:51"
         },
         {
             "name": "zicht/z-plugin-apc",
             "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "git.zicht.nl:zicht/z-plugin-apc",
+                "url": "git@github.com:zicht/z-plugin-apc",
                 "reference": "4ddb95acffbffea18471c796278ebc714605d38d"
             },
             "dist": {
@@ -519,7 +519,7 @@
             "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "git.zicht.nl:zicht/z-plugin-bower",
+                "url": "git@github.com:zicht/z-plugin-bower",
                 "reference": "a063384fa167d458f70eaef2b5fefd733dd173fd"
             },
             "dist": {
@@ -546,7 +546,7 @@
             "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "git.zicht.nl:zicht/z-plugin-build",
+                "url": "git@github.com:zicht/z-plugin-build",
                 "reference": "22b3cd85eebb9f4608bacbf3236316da7d938e9d"
             },
             "dist": {
@@ -573,7 +573,7 @@
             "version": "1.0.1",
             "source": {
                 "type": "git",
-                "url": "git.zicht.nl:zicht/z-plugin-chmod",
+                "url": "git@github.com:zicht/z-plugin-chmod",
                 "reference": "0a912cb4c58848857a8b51c647182085a0d30d3d"
             },
             "dist": {
@@ -600,7 +600,7 @@
             "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "git.zicht.nl:zicht/z-plugin-ci",
+                "url": "git@github.com:zicht/z-plugin-ci",
                 "reference": "1f0470a0c77ff5c91117ff9d6b6866f5b371beea"
             },
             "dist": {
@@ -627,7 +627,7 @@
             "version": "1.1.1",
             "source": {
                 "type": "git",
-                "url": "git.zicht.nl:zicht/z-plugin-content",
+                "url": "git@github.com:zicht/z-plugin-content",
                 "reference": "73ba42c8ad2e04bcf20c0c22bd0f280b80f0ecd6"
             },
             "dist": {
@@ -654,7 +654,7 @@
             "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "git.zicht.nl:zicht/z-plugin-core",
+                "url": "git@github.com:zicht/z-plugin-core",
                 "reference": "41dd2786fa9c488768bdf3189f254c691617eef4"
             },
             "dist": {
@@ -681,7 +681,7 @@
             "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "git.zicht.nl:zicht/z-plugin-cron",
+                "url": "git@github.com:zicht/z-plugin-cron",
                 "reference": "3101f99bd812260c2d3f9c65a6dc1edfe2059b7f"
             },
             "dist": {
@@ -708,7 +708,7 @@
             "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "git.zicht.nl:zicht/z-plugin-deploy",
+                "url": "git@github.com:zicht/z-plugin-deploy",
                 "reference": "dc9426bc990020b6d21f71321c1537771f0a67d7"
             },
             "dist": {
@@ -735,7 +735,7 @@
             "version": "2.1.0",
             "source": {
                 "type": "git",
-                "url": "git.zicht.nl:zicht/z-plugin-docker",
+                "url": "git@github.com:zicht/z-plugin-docker",
                 "reference": "87867f1e0c7a36f7af6504138aaaeaac32a383ca"
             },
             "dist": {
@@ -762,7 +762,7 @@
             "version": "2.1.0",
             "source": {
                 "type": "git",
-                "url": "git.zicht.nl:zicht/z-plugin-env",
+                "url": "git@github.com:zicht/z-plugin-env",
                 "reference": "758a65ca8a64b4edf548e70ac20b14a21979875a"
             },
             "dist": {
@@ -787,7 +787,7 @@
             "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "git.zicht.nl:zicht/z-plugin-git",
+                "url": "git@github.com:zicht/z-plugin-git",
                 "reference": "cab449307d1e439fccc3bf1fd353a3ecd006e618"
             },
             "dist": {
@@ -814,7 +814,7 @@
             "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "git.zicht.nl:zicht/z-plugin-interact",
+                "url": "git@github.com:zicht/z-plugin-interact",
                 "reference": "3c6ebe70ba1af0e2132cfb2a6f27bd85a88ea92a"
             },
             "dist": {
@@ -841,7 +841,7 @@
             "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "git.zicht.nl:zicht/z-plugin-lftp",
+                "url": "git@github.com:zicht/z-plugin-lftp",
                 "reference": "edd421821258fcbb813f2453c07462b800c7875e"
             },
             "dist": {
@@ -868,7 +868,7 @@
             "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "git.zicht.nl:zicht/z-plugin-log",
+                "url": "git@github.com:zicht/z-plugin-log",
                 "reference": "6aeb53bce80326338179a12accf03c5542bdecc3"
             },
             "dist": {
@@ -895,7 +895,7 @@
             "version": "1.1.0",
             "source": {
                 "type": "git",
-                "url": "git.zicht.nl:zicht/z-plugin-messages",
+                "url": "git@github.com:zicht/z-plugin-messages",
                 "reference": "888ed1452d81721ac06c9cc9addddd5b7c8aec6e"
             },
             "dist": {
@@ -922,7 +922,7 @@
             "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "git.zicht.nl:zicht/z-plugin-opcache",
+                "url": "git@github.com:zicht/z-plugin-opcache",
                 "reference": "b203f6e3cf8d8fe5e06c40950b20874be546204c"
             },
             "dist": {
@@ -949,7 +949,7 @@
             "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "git.zicht.nl:zicht/z-plugin-qa",
+                "url": "git@github.com:zicht/z-plugin-qa",
                 "reference": "a06063e1bd5314760cad7f24420549773aa4294f"
             },
             "dist": {
@@ -976,7 +976,7 @@
             "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "git.zicht.nl:zicht/z-plugin-rsync",
+                "url": "git@github.com:zicht/z-plugin-rsync",
                 "reference": "419b87e1ddbb6ca813933054a5e3f69b0b567fd9"
             },
             "dist": {
@@ -1003,7 +1003,7 @@
             "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "git.zicht.nl:zicht/z-plugin-sass",
+                "url": "git@github.com:zicht/z-plugin-sass",
                 "reference": "b527d38fb8423f87b1feb426d0f86aba7e13842e"
             },
             "dist": {
@@ -1030,7 +1030,7 @@
             "version": "1.0.2",
             "source": {
                 "type": "git",
-                "url": "git.zicht.nl:zicht/z-plugin-solr",
+                "url": "git@github.com:zicht/z-plugin-solr",
                 "reference": "2a2ebf32b5b42f799bf6209296a92e0ad9efc135"
             },
             "dist": {
@@ -1055,7 +1055,7 @@
             "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "git.zicht.nl:zicht/z-plugin-svn",
+                "url": "git@github.com:zicht/z-plugin-svn",
                 "reference": "b2580624b8e957ba646cf58350b9f5201ba1df5b"
             },
             "dist": {
@@ -1082,7 +1082,7 @@
             "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "git.zicht.nl:zicht/z-plugin-symfony",
+                "url": "git@github.com:zicht/z-plugin-symfony",
                 "reference": "d0ab539d3e148bfb9436a9867a5ef72f2c5fb88c"
             },
             "dist": {
@@ -1109,7 +1109,7 @@
             "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "git.zicht.nl:zicht/z-plugin-systemjs",
+                "url": "git@github.com:zicht/z-plugin-systemjs",
                 "reference": "c5cd877c732b1cd31dd06fa1db30040d15f94f45"
             },
             "dist": {
@@ -1134,7 +1134,7 @@
             "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "git.zicht.nl:zicht/z-plugin-tunnel",
+                "url": "git@github.com:zicht/z-plugin-tunnel",
                 "reference": "d82f3838cded84d8ede94ec9c910aa30cdf26cbe"
             },
             "dist": {
@@ -1159,7 +1159,7 @@
             "version": "1.0.4",
             "source": {
                 "type": "git",
-                "url": "git.zicht.nl:zicht/z-plugin-typescript",
+                "url": "git@github.com:zicht/z-plugin-typescript",
                 "reference": "80e026dee047df48232e47797e7ac7e0f3f3ac6a"
             },
             "dist": {
@@ -1184,7 +1184,7 @@
             "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "git.zicht.nl:zicht/z-plugin-uglifyjs",
+                "url": "git@github.com:zicht/z-plugin-uglifyjs",
                 "reference": "21385a432e76f9a702d51110f6677ac620faaeb9"
             },
             "dist": {
@@ -1211,7 +1211,7 @@
             "version": "1.1.1",
             "source": {
                 "type": "git",
-                "url": "git.zicht.nl:zicht/z-plugin-watch",
+                "url": "git@github.com:zicht/z-plugin-watch",
                 "reference": "8a61907ed193c7daa9ce634befe44edd34554e10"
             },
             "dist": {
