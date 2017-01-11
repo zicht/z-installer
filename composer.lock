@@ -8,22 +8,71 @@
     "content-hash": "de8d39600cb0742a1f02cd0800ffcc4e",
     "packages": [
         {
-            "name": "symfony/config",
-            "version": "v2.8.6",
+            "name": "psr/log",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
-                "url": "zichter@dev3:github/symfony/Config.git",
-                "reference": "311340e7bbeaa38214770f790cb2f22d46fee016"
+                "url": "git@github.com:php-fig/log",
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://remote.satis.dev3.zicht.intern/packages/symfony/Config.git/v2.8.6.zip",
-                "reference": "311340e7bbeaa38214770f790cb2f22d46fee016",
+                "url": "http://remote.satis.dev3.intern/dist/php-fig/log/1.0.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2016-10-10 12:19:37"
+        },
+        {
+            "name": "symfony/config",
+            "version": "v2.8.15",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:symfony/Config",
+                "reference": "da795d1bcffd2dea0dfecca1519e113cf60ae55b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://remote.satis.dev3.intern/dist/symfony/Config/v2.8.15.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
                 "php": ">=5.3.9",
                 "symfony/filesystem": "~2.3|~3.0.0"
+            },
+            "require-dev": {
+                "symfony/yaml": "~2.7|~3.0.0"
             },
             "suggest": {
                 "symfony/yaml": "To use the yaml reference dumper"
@@ -57,24 +106,25 @@
             ],
             "description": "Symfony Config Component",
             "homepage": "https://symfony.com",
-            "time": "2016-04-20 18:52:26"
+            "time": "2016-12-10 08:21:45"
         },
         {
             "name": "symfony/console",
-            "version": "v2.8.6",
+            "version": "v2.8.15",
             "source": {
                 "type": "git",
-                "url": "zichter@dev3:github/symfony/Console.git",
-                "reference": "5f671ee2025b633f46176a2f12db573580d2d160"
+                "url": "git@github.com:symfony/Console",
+                "reference": "76653fe446c56c849975b734b7042d0004aa7e87"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://remote.satis.dev3.zicht.intern/packages/symfony/Console.git/v2.8.6.zip",
-                "reference": "5f671ee2025b633f46176a2f12db573580d2d160",
+                "url": "http://remote.satis.dev3.intern/dist/symfony/Console/v2.8.15.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
                 "php": ">=5.3.9",
+                "symfony/debug": "~2.7,>=2.7.2|~3.0.0",
                 "symfony/polyfill-mbstring": "~1.0"
             },
             "require-dev": {
@@ -116,29 +166,85 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2016-04-26 12:00:47"
+            "time": "2016-12-06 11:59:35"
         },
         {
-            "name": "symfony/filesystem",
-            "version": "v2.7.7",
+            "name": "symfony/debug",
+            "version": "v3.0.9",
             "source": {
                 "type": "git",
-                "url": "zichter@dev3:github/symfony/Filesystem.git",
-                "reference": "99fa04941d2ce6cefab87bb0a4b69b136819c8d1"
+                "url": "git@github.com:symfony/Debug",
+                "reference": "d1dc21ca0230d6b2dc8afb393cca7ec75ce6fc20"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://remote.satis.dev3.zicht.intern/packages/symfony/Filesystem.git/v2.7.7.zip",
-                "reference": "99fa04941d2ce6cefab87bb0a4b69b136819c8d1",
+                "url": "http://remote.satis.dev3.intern/dist/symfony/Debug/v3.0.9.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
-                "php": ">=5.3.9"
+                "php": ">=5.5.9",
+                "psr/log": "~1.0"
+            },
+            "conflict": {
+                "symfony/http-kernel": ">=2.3,<2.3.24|~2.4.0|>=2.5,<2.5.9|>=2.6,<2.6.2"
+            },
+            "require-dev": {
+                "symfony/class-loader": "~2.8|~3.0",
+                "symfony/http-kernel": "~2.8|~3.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.7-dev"
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Debug\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Debug Component",
+            "homepage": "https://symfony.com",
+            "time": "2016-07-30 07:22:48"
+        },
+        {
+            "name": "symfony/filesystem",
+            "version": "v3.0.9",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:symfony/Filesystem",
+                "reference": "a8b411228891ac78c11d80fd2fef96bd13e649dc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://remote.satis.dev3.intern/dist/symfony/Filesystem/v3.0.9.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
                 }
             },
             "autoload": {
@@ -164,20 +270,20 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
-            "time": "2015-11-18 13:41:01"
+            "time": "2016-07-20 05:43:46"
         },
         {
             "name": "symfony/finder",
-            "version": "v2.8.6",
+            "version": "v2.8.15",
             "source": {
                 "type": "git",
-                "url": "zichter@dev3:github/symfony/Finder.git",
-                "reference": "a3d15e58475b4f6b4285f7ae08f71ed2d31a4843"
+                "url": "git@github.com:symfony/Finder",
+                "reference": "144c194fb46745242385c7f83f08f7a6ccbad532"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://remote.satis.dev3.zicht.intern/packages/symfony/Finder.git/v2.8.6.zip",
-                "reference": "a3d15e58475b4f6b4285f7ae08f71ed2d31a4843",
+                "url": "http://remote.satis.dev3.intern/dist/symfony/Finder/v2.8.15.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -212,20 +318,20 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2016-03-10 10:53:53"
+            "time": "2016-12-13 09:38:12"
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.2.0",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:symfony/polyfill-mbstring",
-                "reference": "630ad16fd18f79b367449a0083085f2952242ed9"
+                "reference": "344894712698fddf253f8ea482dcf233f33f1e22"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://remote.satis.dev3.zicht.intern/packages/symfony/polyfill-mbstring.git/v1.2.0.zip",
-                "reference": "630ad16fd18f79b367449a0083085f2952242ed9",
+                "url": "http://remote.satis.dev3.intern/dist/symfony/polyfill-mbstring/v1.3.0.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -237,7 +343,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.2-dev"
+                    "dev-master": "1.3-dev"
                 }
             },
             "autoload": {
@@ -270,20 +376,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-05-18 09:38:54"
+            "time": "2016-11-14 01:06:16"
         },
         {
             "name": "symfony/process",
-            "version": "v2.8.6",
+            "version": "v2.8.15",
             "source": {
                 "type": "git",
-                "url": "zichter@dev3:github/symfony/Process.git",
-                "reference": "d3912fb146220b40eb287355c64163f6c4a25882"
+                "url": "git@github.com:symfony/Process",
+                "reference": "b4e8c2e52089066e7d382535f4d245235b0fbf7a"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://remote.satis.dev3.zicht.intern/packages/symfony/Process.git/v2.8.6.zip",
-                "reference": "d3912fb146220b40eb287355c64163f6c4a25882",
+                "url": "http://remote.satis.dev3.intern/dist/symfony/Process/v2.8.15.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -318,20 +424,20 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2016-04-14 15:22:22"
+            "time": "2016-11-24 00:43:03"
         },
         {
             "name": "symfony/yaml",
-            "version": "v2.8.6",
+            "version": "v2.8.15",
             "source": {
                 "type": "git",
-                "url": "zichter@dev3:github/symfony/Yaml.git",
-                "reference": "812d191f3bde0058000e428fe30c344d5aa9f0f5"
+                "url": "git@github.com:symfony/Yaml",
+                "reference": "bd9c0643252b06dfb45bd1013ac35b89a4618825"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://remote.satis.dev3.zicht.intern/packages/symfony/Yaml.git/v2.8.6.zip",
-                "reference": "812d191f3bde0058000e428fe30c344d5aa9f0f5",
+                "url": "http://remote.satis.dev3.intern/dist/symfony/Yaml/v2.8.15.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -366,24 +472,27 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2016-03-24 13:09:50"
+            "time": "2016-11-14 16:15:57"
         },
         {
             "name": "zicht/util",
-            "version": "1.7.0",
+            "version": "1.7.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:zicht/util",
-                "reference": "5b11d9db9cd36cbab2e4ff5ded883485d5ccb3cc"
+                "reference": "6b0d42b768d9cc287099dbc13a5404c4984f3b00"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://satis.dev3.intern/dist/zicht/ZichtUtil/1.7.0.zip",
-                "reference": "5b11d9db9cd36cbab2e4ff5ded883485d5ccb3cc",
+                "url": "http://satis.dev3.intern/dist/zicht/util/1.7.2.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
-                "php": ">=5.3"
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5"
             },
             "type": "library",
             "autoload": {
@@ -394,6 +503,9 @@
                     ]
                 }
             },
+            "license": [
+                "MIT"
+            ],
             "authors": [
                 {
                     "name": "Gerard van Helden",
@@ -401,7 +513,7 @@
                 }
             ],
             "description": "Low level utility classes",
-            "time": "2016-05-27 14:27:01"
+            "time": "2016-11-30 09:09:24"
         },
         {
             "name": "zicht/version",
@@ -413,8 +525,8 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "http://satis.dev3.intern/dist/zicht/ZichtVersion/1.1.0-rc.1.zip",
-                "reference": "bd9baf5e569bb7554b7a0d71d6a73ede79150c61",
+                "url": "http://satis.dev3.intern/dist/zicht/version/1.1.0-rc.1.zip",
+                "reference": null,
                 "shasum": null
             },
             "type": "library",
@@ -437,15 +549,15 @@
         },
         {
             "name": "zicht/z",
-            "version": "2.0.7",
+            "version": "2.0.8",
             "source": {
                 "type": "git",
                 "url": "git@github.com:zicht/z",
-                "reference": "6b790a9daed8891ab97e6550031d705d520f684d"
+                "reference": "e235ed997ce2e8d9dfc6130346ca0dbb71ebacd5"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://satis.dev3.intern/dist/zicht/z/2.0.7.zip",
+                "url": "http://satis.dev3.intern/dist/zicht/z/2.0.8.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -485,7 +597,7 @@
                 "MIT"
             ],
             "description": "Z - The Zicht build tool",
-            "time": "2016-11-28 12:21:51"
+            "time": "2017-01-11 12:23:23"
         },
         {
             "name": "zicht/z-plugin-apc",
@@ -498,7 +610,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-apc/1.0.0.zip",
-                "reference": "4ddb95acffbffea18471c796278ebc714605d38d",
+                "reference": null,
                 "shasum": null
             },
             "type": "library",
@@ -525,7 +637,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-bower/1.0.0.zip",
-                "reference": "a063384fa167d458f70eaef2b5fefd733dd173fd",
+                "reference": null,
                 "shasum": null
             },
             "type": "library",
@@ -552,7 +664,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-build/1.0.0.zip",
-                "reference": "22b3cd85eebb9f4608bacbf3236316da7d938e9d",
+                "reference": null,
                 "shasum": null
             },
             "type": "library",
@@ -579,7 +691,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-chmod/1.0.1.zip",
-                "reference": "0a912cb4c58848857a8b51c647182085a0d30d3d",
+                "reference": null,
                 "shasum": null
             },
             "type": "library",
@@ -606,7 +718,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-ci/1.0.0.zip",
-                "reference": "1f0470a0c77ff5c91117ff9d6b6866f5b371beea",
+                "reference": null,
                 "shasum": null
             },
             "type": "library",
@@ -633,7 +745,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-content/1.1.1.zip",
-                "reference": "73ba42c8ad2e04bcf20c0c22bd0f280b80f0ecd6",
+                "reference": null,
                 "shasum": null
             },
             "type": "library",
@@ -660,7 +772,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-core/1.0.0.zip",
-                "reference": "41dd2786fa9c488768bdf3189f254c691617eef4",
+                "reference": null,
                 "shasum": null
             },
             "type": "library",
@@ -687,7 +799,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-cron/1.0.0.zip",
-                "reference": "3101f99bd812260c2d3f9c65a6dc1edfe2059b7f",
+                "reference": null,
                 "shasum": null
             },
             "type": "library",
@@ -714,7 +826,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-deploy/1.0.0.zip",
-                "reference": "dc9426bc990020b6d21f71321c1537771f0a67d7",
+                "reference": null,
                 "shasum": null
             },
             "type": "library",
@@ -736,12 +848,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:zicht/z-plugin-docker",
-                "reference": "87867f1e0c7a36f7af6504138aaaeaac32a383ca"
+                "reference": "225fa53acc8fa8ea1487b9d653558274e73c3600"
             },
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-docker/2.1.0.zip",
-                "reference": "87867f1e0c7a36f7af6504138aaaeaac32a383ca",
+                "reference": null,
                 "shasum": null
             },
             "type": "library",
@@ -768,7 +880,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-env/2.1.0.zip",
-                "reference": "758a65ca8a64b4edf548e70ac20b14a21979875a",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -793,7 +905,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-git/1.0.0.zip",
-                "reference": "cab449307d1e439fccc3bf1fd353a3ecd006e618",
+                "reference": null,
                 "shasum": null
             },
             "type": "library",
@@ -820,7 +932,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-interact/1.0.0.zip",
-                "reference": "3c6ebe70ba1af0e2132cfb2a6f27bd85a88ea92a",
+                "reference": null,
                 "shasum": null
             },
             "type": "library",
@@ -847,7 +959,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-lftp/1.0.0.zip",
-                "reference": "edd421821258fcbb813f2453c07462b800c7875e",
+                "reference": null,
                 "shasum": null
             },
             "type": "library",
@@ -865,16 +977,16 @@
         },
         {
             "name": "zicht/z-plugin-log",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:zicht/z-plugin-log",
-                "reference": "6aeb53bce80326338179a12accf03c5542bdecc3"
+                "reference": "ada60d4ad9332feb54840ca71517d9fc2c45ebb2"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://satis.dev3.intern/dist/zicht/z-plugin-log/1.0.0.zip",
-                "reference": "6aeb53bce80326338179a12accf03c5542bdecc3",
+                "url": "http://satis.dev3.intern/dist/zicht/z-plugin-log/1.1.0.zip",
+                "reference": null,
                 "shasum": null
             },
             "type": "library",
@@ -888,7 +1000,7 @@
                 }
             ],
             "description": "Log plugin for Z",
-            "time": "2016-04-07 14:42:16"
+            "time": "2016-08-11 15:37:44"
         },
         {
             "name": "zicht/z-plugin-messages",
@@ -901,7 +1013,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-messages/1.1.0.zip",
-                "reference": "888ed1452d81721ac06c9cc9addddd5b7c8aec6e",
+                "reference": null,
                 "shasum": null
             },
             "type": "library",
@@ -928,7 +1040,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-opcache/1.0.0.zip",
-                "reference": "b203f6e3cf8d8fe5e06c40950b20874be546204c",
+                "reference": null,
                 "shasum": null
             },
             "type": "library",
@@ -955,7 +1067,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-qa/1.0.0.zip",
-                "reference": "a06063e1bd5314760cad7f24420549773aa4294f",
+                "reference": null,
                 "shasum": null
             },
             "type": "library",
@@ -982,7 +1094,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-rsync/1.0.0.zip",
-                "reference": "419b87e1ddbb6ca813933054a5e3f69b0b567fd9",
+                "reference": null,
                 "shasum": null
             },
             "type": "library",
@@ -1009,7 +1121,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-sass/1.0.0.zip",
-                "reference": "b527d38fb8423f87b1feb426d0f86aba7e13842e",
+                "reference": null,
                 "shasum": null
             },
             "type": "library",
@@ -1027,16 +1139,16 @@
         },
         {
             "name": "zicht/z-plugin-solr",
-            "version": "1.0.2",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:zicht/z-plugin-solr",
-                "reference": "2a2ebf32b5b42f799bf6209296a92e0ad9efc135"
+                "reference": "50bdde921b491a55ce3e0dc5187d4ee438a1b1ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://satis.dev3.intern/dist/zicht/z-plugin-solr/1.0.2.zip",
-                "reference": "2a2ebf32b5b42f799bf6209296a92e0ad9efc135",
+                "url": "http://satis.dev3.intern/dist/zicht/z-plugin-solr/1.1.0.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -1048,7 +1160,7 @@
                 "post-update-cmd": []
             },
             "description": "'solr' plugin for Z",
-            "time": "2016-06-23 09:33:38"
+            "time": "2016-07-20 08:09:04"
         },
         {
             "name": "zicht/z-plugin-svn",
@@ -1061,7 +1173,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-svn/1.0.0.zip",
-                "reference": "b2580624b8e957ba646cf58350b9f5201ba1df5b",
+                "reference": null,
                 "shasum": null
             },
             "type": "library",
@@ -1088,7 +1200,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-symfony/1.0.0.zip",
-                "reference": "d0ab539d3e148bfb9436a9867a5ef72f2c5fb88c",
+                "reference": null,
                 "shasum": null
             },
             "type": "library",
@@ -1115,7 +1227,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-systemjs/1.0.0.zip",
-                "reference": "c5cd877c732b1cd31dd06fa1db30040d15f94f45",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -1140,7 +1252,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-tunnel/1.0.0.zip",
-                "reference": "d82f3838cded84d8ede94ec9c910aa30cdf26cbe",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -1165,7 +1277,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-typescript/1.0.4.zip",
-                "reference": "80e026dee047df48232e47797e7ac7e0f3f3ac6a",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -1190,7 +1302,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-uglifyjs/1.0.0.zip",
-                "reference": "21385a432e76f9a702d51110f6677ac620faaeb9",
+                "reference": null,
                 "shasum": null
             },
             "type": "library",
@@ -1208,16 +1320,16 @@
         },
         {
             "name": "zicht/z-plugin-watch",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:zicht/z-plugin-watch",
-                "reference": "8a61907ed193c7daa9ce634befe44edd34554e10"
+                "reference": "26452585b37a6ae94a4b9b5379ec290643b65de1"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://satis.dev3.intern/dist/zicht/z-plugin-watch/1.1.1.zip",
-                "reference": "8a61907ed193c7daa9ce634befe44edd34554e10",
+                "url": "http://satis.dev3.intern/dist/zicht/z-plugin-watch/1.1.2.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -1229,7 +1341,7 @@
                 "post-update-cmd": []
             },
             "description": "'zwatch' plugin for Z",
-            "time": "2016-07-22 15:10:36"
+            "time": "2016-08-15 08:54:20"
         }
     ],
     "packages-dev": [],
