@@ -4,8 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "39e6377cd0ba4ab4c73220037c1cc724",
-    "content-hash": "de8d39600cb0742a1f02cd0800ffcc4e",
+    "content-hash": "25197a055d40d58de23c9eaa75577e57",
     "packages": [
         {
             "name": "psr/log",
@@ -18,7 +17,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://remote.satis.dev3.intern/dist/php-fig/log/1.0.2.zip",
-                "reference": null,
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
                 "shasum": null
             },
             "require": {
@@ -51,7 +50,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-10-10 12:19:37"
+            "time": "2016-10-10T12:19:37+00:00"
         },
         {
             "name": "symfony/config",
@@ -64,7 +63,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://remote.satis.dev3.intern/dist/symfony/Config/v2.8.15.zip",
-                "reference": null,
+                "reference": "da795d1bcffd2dea0dfecca1519e113cf60ae55b",
                 "shasum": null
             },
             "require": {
@@ -106,7 +105,7 @@
             ],
             "description": "Symfony Config Component",
             "homepage": "https://symfony.com",
-            "time": "2016-12-10 08:21:45"
+            "time": "2016-12-10T08:21:45+00:00"
         },
         {
             "name": "symfony/console",
@@ -119,7 +118,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://remote.satis.dev3.intern/dist/symfony/Console/v2.8.15.zip",
-                "reference": null,
+                "reference": "76653fe446c56c849975b734b7042d0004aa7e87",
                 "shasum": null
             },
             "require": {
@@ -166,7 +165,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2016-12-06 11:59:35"
+            "time": "2016-12-06T11:59:35+00:00"
         },
         {
             "name": "symfony/debug",
@@ -179,7 +178,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://remote.satis.dev3.intern/dist/symfony/Debug/v3.0.9.zip",
-                "reference": null,
+                "reference": "d1dc21ca0230d6b2dc8afb393cca7ec75ce6fc20",
                 "shasum": null
             },
             "require": {
@@ -222,7 +221,7 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2016-07-30 07:22:48"
+            "time": "2016-07-30T07:22:48+00:00"
         },
         {
             "name": "symfony/filesystem",
@@ -235,7 +234,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://remote.satis.dev3.intern/dist/symfony/Filesystem/v3.0.9.zip",
-                "reference": null,
+                "reference": "a8b411228891ac78c11d80fd2fef96bd13e649dc",
                 "shasum": null
             },
             "require": {
@@ -270,7 +269,7 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
-            "time": "2016-07-20 05:43:46"
+            "time": "2016-07-20T05:43:46+00:00"
         },
         {
             "name": "symfony/finder",
@@ -283,7 +282,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://remote.satis.dev3.intern/dist/symfony/Finder/v2.8.15.zip",
-                "reference": null,
+                "reference": "144c194fb46745242385c7f83f08f7a6ccbad532",
                 "shasum": null
             },
             "require": {
@@ -318,7 +317,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2016-12-13 09:38:12"
+            "time": "2016-12-13T09:38:12+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -331,7 +330,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://remote.satis.dev3.intern/dist/symfony/polyfill-mbstring/v1.3.0.zip",
-                "reference": null,
+                "reference": "344894712698fddf253f8ea482dcf233f33f1e22",
                 "shasum": null
             },
             "require": {
@@ -376,7 +375,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-11-14 01:06:16"
+            "time": "2016-11-14T01:06:16+00:00"
         },
         {
             "name": "symfony/process",
@@ -389,7 +388,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://remote.satis.dev3.intern/dist/symfony/Process/v2.8.15.zip",
-                "reference": null,
+                "reference": "b4e8c2e52089066e7d382535f4d245235b0fbf7a",
                 "shasum": null
             },
             "require": {
@@ -424,7 +423,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-24 00:43:03"
+            "time": "2016-11-24T00:43:03+00:00"
         },
         {
             "name": "symfony/yaml",
@@ -437,7 +436,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://remote.satis.dev3.intern/dist/symfony/Yaml/v2.8.15.zip",
-                "reference": null,
+                "reference": "bd9c0643252b06dfb45bd1013ac35b89a4618825",
                 "shasum": null
             },
             "require": {
@@ -472,7 +471,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-14 16:15:57"
+            "time": "2016-11-14T16:15:57+00:00"
         },
         {
             "name": "zicht/util",
@@ -485,7 +484,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/util/1.7.2.zip",
-                "reference": null,
+                "reference": "6b0d42b768d9cc287099dbc13a5404c4984f3b00",
                 "shasum": null
             },
             "require": {
@@ -513,7 +512,7 @@
                 }
             ],
             "description": "Low level utility classes",
-            "time": "2016-11-30 09:09:24"
+            "time": "2016-11-30T09:09:24+00:00"
         },
         {
             "name": "zicht/version",
@@ -526,7 +525,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/version/1.1.0-rc.1.zip",
-                "reference": null,
+                "reference": "bd9baf5e569bb7554b7a0d71d6a73ede79150c61",
                 "shasum": null
             },
             "type": "library",
@@ -545,7 +544,7 @@
                 }
             ],
             "description": "Versioning logic following SemVer.org",
-            "time": "2014-05-03 14:06:16"
+            "time": "2014-05-03T14:06:16+00:00"
         },
         {
             "name": "zicht/z",
@@ -558,7 +557,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z/2.0.8.zip",
-                "reference": null,
+                "reference": "e235ed997ce2e8d9dfc6130346ca0dbb71ebacd5",
                 "shasum": null
             },
             "require": {
@@ -597,7 +596,7 @@
                 "MIT"
             ],
             "description": "Z - The Zicht build tool",
-            "time": "2017-01-11 12:23:23"
+            "time": "2017-01-11T12:23:23+00:00"
         },
         {
             "name": "zicht/z-plugin-apc",
@@ -610,7 +609,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-apc/1.0.0.zip",
-                "reference": null,
+                "reference": "4ddb95acffbffea18471c796278ebc714605d38d",
                 "shasum": null
             },
             "type": "library",
@@ -624,7 +623,7 @@
                 }
             ],
             "description": "APC plugin for Z",
-            "time": "2016-04-07 14:35:35"
+            "time": "2016-04-07T14:35:35+00:00"
         },
         {
             "name": "zicht/z-plugin-bower",
@@ -637,7 +636,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-bower/1.0.0.zip",
-                "reference": null,
+                "reference": "a063384fa167d458f70eaef2b5fefd733dd173fd",
                 "shasum": null
             },
             "type": "library",
@@ -651,7 +650,7 @@
                 }
             ],
             "description": "Bower plugin for Z",
-            "time": "2016-04-07 14:36:45"
+            "time": "2016-04-07T14:36:45+00:00"
         },
         {
             "name": "zicht/z-plugin-build",
@@ -664,7 +663,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-build/1.0.0.zip",
-                "reference": null,
+                "reference": "22b3cd85eebb9f4608bacbf3236316da7d938e9d",
                 "shasum": null
             },
             "type": "library",
@@ -678,7 +677,7 @@
                 }
             ],
             "description": "Build plugin for Z",
-            "time": "2016-04-07 14:39:29"
+            "time": "2016-04-07T14:39:29+00:00"
         },
         {
             "name": "zicht/z-plugin-chmod",
@@ -691,7 +690,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-chmod/1.0.1.zip",
-                "reference": null,
+                "reference": "0a912cb4c58848857a8b51c647182085a0d30d3d",
                 "shasum": null
             },
             "type": "library",
@@ -705,7 +704,7 @@
                 }
             ],
             "description": "chmod plugin for Z",
-            "time": "2016-06-15 10:29:35"
+            "time": "2016-06-15T10:29:35+00:00"
         },
         {
             "name": "zicht/z-plugin-ci",
@@ -718,7 +717,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-ci/1.0.0.zip",
-                "reference": null,
+                "reference": "1f0470a0c77ff5c91117ff9d6b6866f5b371beea",
                 "shasum": null
             },
             "type": "library",
@@ -732,7 +731,7 @@
                 }
             ],
             "description": "Continuous Integration plugin for Z",
-            "time": "2016-04-07 14:40:02"
+            "time": "2016-04-07T14:40:02+00:00"
         },
         {
             "name": "zicht/z-plugin-content",
@@ -745,7 +744,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-content/1.1.1.zip",
-                "reference": null,
+                "reference": "73ba42c8ad2e04bcf20c0c22bd0f280b80f0ecd6",
                 "shasum": null
             },
             "type": "library",
@@ -759,7 +758,7 @@
                 }
             ],
             "description": "Content plugin for Z",
-            "time": "2016-08-31 08:25:29"
+            "time": "2016-08-31T08:25:29+00:00"
         },
         {
             "name": "zicht/z-plugin-core",
@@ -772,7 +771,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-core/1.0.0.zip",
-                "reference": null,
+                "reference": "41dd2786fa9c488768bdf3189f254c691617eef4",
                 "shasum": null
             },
             "type": "library",
@@ -786,7 +785,7 @@
                 }
             ],
             "description": "Core plugin for Z",
-            "time": "2016-04-07 14:40:35"
+            "time": "2016-04-07T14:40:35+00:00"
         },
         {
             "name": "zicht/z-plugin-cron",
@@ -799,7 +798,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-cron/1.0.0.zip",
-                "reference": null,
+                "reference": "3101f99bd812260c2d3f9c65a6dc1edfe2059b7f",
                 "shasum": null
             },
             "type": "library",
@@ -813,7 +812,7 @@
                 }
             ],
             "description": "Cron plugin for Z",
-            "time": "2016-04-07 14:40:52"
+            "time": "2016-04-07T14:40:52+00:00"
         },
         {
             "name": "zicht/z-plugin-deploy",
@@ -826,7 +825,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-deploy/1.0.0.zip",
-                "reference": null,
+                "reference": "dc9426bc990020b6d21f71321c1537771f0a67d7",
                 "shasum": null
             },
             "type": "library",
@@ -840,7 +839,7 @@
                 }
             ],
             "description": "Deploy plugin for Z",
-            "time": "2016-04-07 14:41:08"
+            "time": "2016-04-07T14:41:08+00:00"
         },
         {
             "name": "zicht/z-plugin-docker",
@@ -853,7 +852,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-docker/2.1.0.zip",
-                "reference": null,
+                "reference": "225fa53acc8fa8ea1487b9d653558274e73c3600",
                 "shasum": null
             },
             "type": "library",
@@ -867,7 +866,7 @@
                 }
             ],
             "description": "Docker plugin for Z",
-            "time": "2016-06-15 10:11:05"
+            "time": "2016-06-15T10:11:05+00:00"
         },
         {
             "name": "zicht/z-plugin-env",
@@ -880,7 +879,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-env/2.1.0.zip",
-                "reference": null,
+                "reference": "758a65ca8a64b4edf548e70ac20b14a21979875a",
                 "shasum": null
             },
             "require": {
@@ -892,7 +891,7 @@
                 "post-update-cmd": []
             },
             "description": "'env' plugin for Z",
-            "time": "2016-06-10 09:35:34"
+            "time": "2016-06-10T09:35:34+00:00"
         },
         {
             "name": "zicht/z-plugin-git",
@@ -905,7 +904,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-git/1.0.0.zip",
-                "reference": null,
+                "reference": "cab449307d1e439fccc3bf1fd353a3ecd006e618",
                 "shasum": null
             },
             "type": "library",
@@ -919,7 +918,7 @@
                 }
             ],
             "description": "GIT plugin for Z",
-            "time": "2016-04-07 14:41:25"
+            "time": "2016-04-07T14:41:25+00:00"
         },
         {
             "name": "zicht/z-plugin-interact",
@@ -932,7 +931,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-interact/1.0.0.zip",
-                "reference": null,
+                "reference": "3c6ebe70ba1af0e2132cfb2a6f27bd85a88ea92a",
                 "shasum": null
             },
             "type": "library",
@@ -946,7 +945,7 @@
                 }
             ],
             "description": "Console interaction plugin for Z",
-            "time": "2016-04-07 14:41:42"
+            "time": "2016-04-07T14:41:42+00:00"
         },
         {
             "name": "zicht/z-plugin-lftp",
@@ -959,7 +958,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-lftp/1.0.0.zip",
-                "reference": null,
+                "reference": "edd421821258fcbb813f2453c07462b800c7875e",
                 "shasum": null
             },
             "type": "library",
@@ -973,7 +972,7 @@
                 }
             ],
             "description": "LFTP sync plugin for Z",
-            "time": "2016-04-07 14:41:59"
+            "time": "2016-04-07T14:41:59+00:00"
         },
         {
             "name": "zicht/z-plugin-log",
@@ -986,7 +985,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-log/1.1.0.zip",
-                "reference": null,
+                "reference": "ada60d4ad9332feb54840ca71517d9fc2c45ebb2",
                 "shasum": null
             },
             "type": "library",
@@ -1000,7 +999,7 @@
                 }
             ],
             "description": "Log plugin for Z",
-            "time": "2016-08-11 15:37:44"
+            "time": "2016-08-11T15:37:44+00:00"
         },
         {
             "name": "zicht/z-plugin-messages",
@@ -1013,7 +1012,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-messages/1.1.0.zip",
-                "reference": null,
+                "reference": "888ed1452d81721ac06c9cc9addddd5b7c8aec6e",
                 "shasum": null
             },
             "type": "library",
@@ -1027,7 +1026,7 @@
                 }
             ],
             "description": "Messages plugin for Z",
-            "time": "2016-05-31 09:29:50"
+            "time": "2016-05-31T09:29:50+00:00"
         },
         {
             "name": "zicht/z-plugin-opcache",
@@ -1040,7 +1039,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-opcache/1.0.0.zip",
-                "reference": null,
+                "reference": "b203f6e3cf8d8fe5e06c40950b20874be546204c",
                 "shasum": null
             },
             "type": "library",
@@ -1054,7 +1053,7 @@
                 }
             ],
             "description": "Opcache plugin for Z",
-            "time": "2016-04-07 14:42:48"
+            "time": "2016-04-07T14:42:48+00:00"
         },
         {
             "name": "zicht/z-plugin-qa",
@@ -1067,7 +1066,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-qa/1.0.0.zip",
-                "reference": null,
+                "reference": "a06063e1bd5314760cad7f24420549773aa4294f",
                 "shasum": null
             },
             "type": "library",
@@ -1081,7 +1080,38 @@
                 }
             ],
             "description": "Quality Assurance plugin for Z",
-            "time": "2016-04-07 14:43:05"
+            "time": "2016-04-07T14:43:05+00:00"
+        },
+        {
+            "name": "zicht/z-plugin-refs",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:zicht/z-plugin-refs",
+                "reference": "5028833fe2e91a3366699fcaef7acf4367bc8873"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://satis.dev3.intern/dist/zicht/z-plugin-refs/1.0.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "php": ">=5.6.0",
+                "zicht/z-plugin-git": "^1.0"
+            },
+            "type": "library",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Philip Bergman",
+                    "email": "philip@zicht.nl"
+                }
+            ],
+            "description": "A refs plugin that will create refs from deploy",
+            "time": "2016-10-26T11:18:48+00:00"
         },
         {
             "name": "zicht/z-plugin-rsync",
@@ -1094,7 +1124,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-rsync/1.0.0.zip",
-                "reference": null,
+                "reference": "419b87e1ddbb6ca813933054a5e3f69b0b567fd9",
                 "shasum": null
             },
             "type": "library",
@@ -1108,7 +1138,7 @@
                 }
             ],
             "description": "rsync sync plugin for Z",
-            "time": "2016-04-07 14:43:22"
+            "time": "2016-04-07T14:43:22+00:00"
         },
         {
             "name": "zicht/z-plugin-sass",
@@ -1121,7 +1151,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-sass/1.0.0.zip",
-                "reference": null,
+                "reference": "b527d38fb8423f87b1feb426d0f86aba7e13842e",
                 "shasum": null
             },
             "type": "library",
@@ -1135,7 +1165,7 @@
                 }
             ],
             "description": "Sass plugin for Z",
-            "time": "2016-04-07 14:28:06"
+            "time": "2016-04-07T14:28:06+00:00"
         },
         {
             "name": "zicht/z-plugin-solr",
@@ -1148,7 +1178,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-solr/1.1.0.zip",
-                "reference": null,
+                "reference": "50bdde921b491a55ce3e0dc5187d4ee438a1b1ac",
                 "shasum": null
             },
             "require": {
@@ -1160,7 +1190,7 @@
                 "post-update-cmd": []
             },
             "description": "'solr' plugin for Z",
-            "time": "2016-07-20 08:09:04"
+            "time": "2016-07-20T08:09:04+00:00"
         },
         {
             "name": "zicht/z-plugin-svn",
@@ -1173,7 +1203,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-svn/1.0.0.zip",
-                "reference": null,
+                "reference": "b2580624b8e957ba646cf58350b9f5201ba1df5b",
                 "shasum": null
             },
             "type": "library",
@@ -1187,7 +1217,7 @@
                 }
             ],
             "description": "SVN plugin for Z",
-            "time": "2016-04-07 14:43:55"
+            "time": "2016-04-07T14:43:55+00:00"
         },
         {
             "name": "zicht/z-plugin-symfony",
@@ -1200,7 +1230,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-symfony/1.0.0.zip",
-                "reference": null,
+                "reference": "d0ab539d3e148bfb9436a9867a5ef72f2c5fb88c",
                 "shasum": null
             },
             "type": "library",
@@ -1214,7 +1244,7 @@
                 }
             ],
             "description": "Deployment utils for Symfony Z plugin",
-            "time": "2016-04-07 14:44:12"
+            "time": "2016-04-07T14:44:12+00:00"
         },
         {
             "name": "zicht/z-plugin-systemjs",
@@ -1227,7 +1257,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-systemjs/1.0.0.zip",
-                "reference": null,
+                "reference": "c5cd877c732b1cd31dd06fa1db30040d15f94f45",
                 "shasum": null
             },
             "require": {
@@ -1239,7 +1269,7 @@
                 "post-update-cmd": []
             },
             "description": "'systemjs' plugin for Z",
-            "time": "2016-04-07 14:18:52"
+            "time": "2016-04-07T14:18:52+00:00"
         },
         {
             "name": "zicht/z-plugin-tunnel",
@@ -1252,7 +1282,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-tunnel/1.0.0.zip",
-                "reference": null,
+                "reference": "d82f3838cded84d8ede94ec9c910aa30cdf26cbe",
                 "shasum": null
             },
             "require": {
@@ -1264,7 +1294,7 @@
                 "post-update-cmd": []
             },
             "description": "'ssh tunnel' plugin for Z",
-            "time": "2016-04-07 14:44:29"
+            "time": "2016-04-07T14:44:29+00:00"
         },
         {
             "name": "zicht/z-plugin-typescript",
@@ -1277,7 +1307,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-typescript/1.0.4.zip",
-                "reference": null,
+                "reference": "80e026dee047df48232e47797e7ac7e0f3f3ac6a",
                 "shasum": null
             },
             "require": {
@@ -1289,7 +1319,7 @@
                 "post-update-cmd": []
             },
             "description": "'typescript' plugin for Z",
-            "time": "2016-09-08 09:33:17"
+            "time": "2016-09-08T09:33:17+00:00"
         },
         {
             "name": "zicht/z-plugin-uglifyjs",
@@ -1302,7 +1332,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-uglifyjs/1.0.0.zip",
-                "reference": null,
+                "reference": "21385a432e76f9a702d51110f6677ac620faaeb9",
                 "shasum": null
             },
             "type": "library",
@@ -1316,7 +1346,7 @@
                 }
             ],
             "description": "Uglifyjs plugin for Z",
-            "time": "2016-04-07 14:44:46"
+            "time": "2016-04-07T14:44:46+00:00"
         },
         {
             "name": "zicht/z-plugin-watch",
@@ -1329,7 +1359,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-watch/1.1.2.zip",
-                "reference": null,
+                "reference": "26452585b37a6ae94a4b9b5379ec290643b65de1",
                 "shasum": null
             },
             "require": {
@@ -1341,7 +1371,7 @@
                 "post-update-cmd": []
             },
             "description": "'zwatch' plugin for Z",
-            "time": "2016-08-15 08:54:20"
+            "time": "2016-08-15T08:54:20+00:00"
         }
     ],
     "packages-dev": [],
