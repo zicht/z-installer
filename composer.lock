@@ -1085,15 +1085,15 @@
         },
         {
             "name": "zicht/z-plugin-refs",
-            "version": "2.0.0",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:zicht/z-plugin-refs",
-                "reference": "00334a3d90a21f2b491eb3baa169b4cd9ea3abbc"
+                "reference": "f7e0a8fbc32200d1809fe0ab594d0d9005537eea"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://satis.dev3.intern/dist/zicht/z-plugin-refs/2.0.0.zip",
+                "url": "http://satis.dev3.intern/dist/zicht/z-plugin-refs/2.0.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1112,7 +1112,7 @@
                 }
             ],
             "description": "A refs plugin that will create refs from deploy",
-            "time": "2017-01-23 22:16:35"
+            "time": "2017-01-24 10:12:51"
         },
         {
             "name": "zicht/z-plugin-rsync",
