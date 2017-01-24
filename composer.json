@@ -20,7 +20,7 @@
         "zicht/z-plugin-messages": "^1",
         "zicht/z-plugin-opcache": "^1",
         "zicht/z-plugin-qa": "^1",
-        "zicht/z-plugin-refs": "^1",
+        "zicht/z-plugin-refs": "^2",
         "zicht/z-plugin-rsync": "^1",
         "zicht/z-plugin-sass": "^1",
         "zicht/z-plugin-solr": "^1",

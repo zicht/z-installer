@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8df2ae4d4a07a657e1b31da1fae2233c",
-    "content-hash": "25197a055d40d58de23c9eaa75577e57",
+    "hash": "e8e0a9b3d38e7bca78bb3ef620ea336b",
+    "content-hash": "51848f5690fd748ff650f28aa8be7d9f",
     "packages": [
         {
             "name": "psr/log",
@@ -1085,15 +1085,15 @@
         },
         {
             "name": "zicht/z-plugin-refs",
-            "version": "1.0.3",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:zicht/z-plugin-refs",
-                "reference": "eb6ea38e0540af4d750808cb4e57d7e06f3b8d00"
+                "reference": "00334a3d90a21f2b491eb3baa169b4cd9ea3abbc"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://satis.dev3.intern/dist/zicht/z-plugin-refs/1.0.3.zip",
+                "url": "http://satis.dev3.intern/dist/zicht/z-plugin-refs/2.0.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1112,7 +1112,7 @@
                 }
             ],
             "description": "A refs plugin that will create refs from deploy",
-            "time": "2017-01-18 11:04:20"
+            "time": "2017-01-23 22:16:35"
         },
         {
             "name": "zicht/z-plugin-rsync",
