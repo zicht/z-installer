@@ -1094,7 +1094,7 @@
             "dist": {
                 "type": "zip",
                 "url": "http://satis.dev3.intern/dist/zicht/z-plugin-refs/2.0.4.zip",
-                "reference": null,
+                "reference": "bf1497c7a781787ff2ae99afba6ab62558a9a6a5",
                 "shasum": null
             },
             "require": {
@@ -1222,16 +1222,16 @@
         },
         {
             "name": "zicht/z-plugin-symfony",
-            "version": "1.0.0",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:zicht/z-plugin-symfony",
-                "reference": "d0ab539d3e148bfb9436a9867a5ef72f2c5fb88c"
+                "reference": "d1e9d6db3346bed23107d07115dd7f29d5a20b9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://satis.dev3.intern/dist/zicht/z-plugin-symfony/1.0.0.zip",
-                "reference": "d0ab539d3e148bfb9436a9867a5ef72f2c5fb88c",
+                "url": "http://satis.dev3.intern/dist/zicht/z-plugin-symfony/1.1.2.zip",
+                "reference": null,
                 "shasum": null
             },
             "type": "library",
@@ -1245,7 +1245,7 @@
                 }
             ],
             "description": "Deployment utils for Symfony Z plugin",
-            "time": "2016-04-07 14:44:12"
+            "time": "2017-02-16 16:17:14"
         },
         {
             "name": "zicht/z-plugin-systemjs",
