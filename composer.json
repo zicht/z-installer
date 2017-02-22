@@ -32,5 +32,8 @@
         "zicht/z-plugin-uglifyjs": "^1",
         "zicht/z-plugin-watch": "^1.1"
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "name": "zicht/z-installer",
+    "description": "Meta-package for installing zicht/z + a set of plugins in one go",
+    "license": "MIT"
 }
