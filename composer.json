@@ -7,7 +7,7 @@
         "zicht/z-plugin-build": "^1",
         "zicht/z-plugin-chmod": "^1",
         "zicht/z-plugin-ci": "^1",
-        "zicht/z-plugin-content": "^1",
+        "zicht/z-plugin-content": "^2",
         "zicht/z-plugin-core": "^1",
         "zicht/z-plugin-cron": "^1",
         "zicht/z-plugin-deploy": "^1",
