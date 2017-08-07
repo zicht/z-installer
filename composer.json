@@ -3,6 +3,7 @@
         "zicht/version": "1.1.0-rc.1@rc",
         "zicht/z": "^2.0",
         "zicht/z-plugin-apc": "^1",
+        "zicht/z-plugin-apcu": "^1",
         "zicht/z-plugin-bower": "^1",
         "zicht/z-plugin-build": "^1",
         "zicht/z-plugin-chmod": "^1",
