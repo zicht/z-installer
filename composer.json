@@ -12,7 +12,6 @@
         "zicht/z-plugin-core": "^1",
         "zicht/z-plugin-cron": "^1",
         "zicht/z-plugin-deploy": "^1",
-        "zicht/z-plugin-docker": "2.1.*",
         "zicht/z-plugin-env": "^2",
         "zicht/z-plugin-git": "^1.0",
         "zicht/z-plugin-interact": "^1",
