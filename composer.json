@@ -17,7 +17,6 @@
         "zicht/z-plugin-git": "^1.0",
         "zicht/z-plugin-interact": "^1",
         "zicht/z-plugin-lftp": "^1",
-        "zicht/z-plugin-log": "^1",
         "zicht/z-plugin-messages": "^1",
         "zicht/z-plugin-migrations": "^1",
         "zicht/z-plugin-opcache": "^1",
