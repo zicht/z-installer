@@ -1,12 +1,14 @@
 {
+    "name": "zicht/z-installer",
+    "description": "Meta-package for installing zicht/z + a set of plugins in one go",
+    "license": "MIT",
     "require": {
-        "zicht/version": "1.1.0-rc.1@rc",
+        "zicht/version": "^1.1",
         "zicht/z": "^2.0",
         "zicht/z-plugin-apc": "^1",
         "zicht/z-plugin-apcu": "^1",
         "zicht/z-plugin-build": "^1",
         "zicht/z-plugin-chmod": "^1",
-        "zicht/z-plugin-ci": "^1",
         "zicht/z-plugin-content": "^2",
         "zicht/z-plugin-core": "^1",
         "zicht/z-plugin-cron": "^1",
@@ -15,16 +17,12 @@
         "zicht/z-plugin-env": "^2",
         "zicht/z-plugin-git": "^1.0",
         "zicht/z-plugin-interact": "^1",
-        "zicht/z-plugin-lftp": "^1",
         "zicht/z-plugin-messages": "^1",
         "zicht/z-plugin-migrations": "^1",
         "zicht/z-plugin-opcache": "^1",
-        "zicht/z-plugin-qa": "^1",
-        "zicht/z-plugin-refs": "^2",
         "zicht/z-plugin-rsync": "^1",
         "zicht/z-plugin-sass": "^1",
         "zicht/z-plugin-solr": "^1",
-        "zicht/z-plugin-svn": "^1",
         "zicht/z-plugin-symfony": "^1",
         "zicht/z-plugin-systemjs": "^1.0",
         "zicht/z-plugin-tunnel": "^1",
@@ -32,8 +30,5 @@
         "zicht/z-plugin-uglifyjs": "^1",
         "zicht/z-plugin-watch": "^1.1"
     },
-    "minimum-stability": "stable",
-    "name": "zicht/z-installer",
-    "description": "Meta-package for installing zicht/z + a set of plugins in one go",
-    "license": "MIT"
+    "minimum-stability": "stable"
 }
