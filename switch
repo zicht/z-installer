@@ -2,19 +2,71 @@
 
 VERSION="${1}"
 if [ "${VERSION}" != "7" ] && [ "${VERSION}" != "8" ] ; then
-    echo "${COLOR_RED}#${COLOR_RESET}"
-    echo "${COLOR_RED}#${COLOR_RESET} [${COLOR_RED}error${COLOR_RESET}] Missing choice: ${COLOR_YELLOW}7${COLOR_RESET} or ${COLOR_YELLOW}8${COLOR_RESET}"
-    echo "${COLOR_RED}#${COLOR_RESET}"
-    echo "${COLOR_RED}#${COLOR_RESET} For example: \"./switch 8\""
+    echo "#"
+    echo "# [Error}] Missing choice: 7 or 8"
+    echo "#"
+    echo "# For example: \"./switch 8\""
     exit 1
 fi
 
+VAR=$(cat <<"EOF"
+
+   __---~~~~--__                      __--~~~~---__
+  '\---~~~~~~~~\\                    //~~~~~~~~---/'
+    \/~~~~~~~~~\||                  ||/~~~~~~~~~\/
+                '\\                //'
+                  '\\            //'
+                    ||          ||      Hey Doc!
+          ______--~~~~~~~~~~~~~~~~~~--______
+     ___ // _-~                        ~-_ \\ ___
+    '\__)\/~                              ~\/(__/'
+     _--'-___                            ___-'--_
+   /~     '\ ~~~~~~~~------------~~~~~~~~ /'     ~\
+  /|        '\                          /'        |\
+ | '\   ______'\_                    _/'______   /' |
+ |   '\_~-_____\ ~-________________-~ /_____-~_/'   |
+ '.     ~-__________________________________-~     .'
+  '.      [_______/------|~~|------\_______]      .'
+   '\--___((____)(________\/________)(____))___--/'
+    |>>>>>>||                            ||<<<<<<|
+    '\<<<<</'                            '\>>>>>/'
+
+EOF
+)
+
 if [ "${VERSION}" = "7" ]; then
   git checkout release/1.9.x && composer update || exit 1
+
+  echo "$VAR"
+  arr[0]="I, Dr. Emmett Brown, am about to embark on an historic journey."
+  arr[1]="Traveling through time has become much too painful."
+  arr[2]="[waking up back in 1985] What a nightmare."
+  arr[3]="Oh, this is heavy, Doc. I mean, it's like I was just here yesterday."
+  arr[4]="Marty, I'm sorry, but I'm afraid you're stuck here."
+  rand=$(( $RANDOM % 4 ))
+
+  echo ""
+  echo "  -\"${arr[$rand]}\""
+  echo ""
+  echo ""
+  echo "  Z is now ready to serve you in PHP 7"
 fi
 
 if [ "${VERSION}" = "8" ]; then
   git checkout release/2.x && composer update || exit 1
+
+  echo "$VAR"
+  arr[0]="Tell me, Future Boy, who's President of the United States in 1985?"
+  arr[1]="Well, good luck for both of our sakes. See you in the future."
+  arr[2]="What happens to us in the future? Do we become assholes or something?"
+  arr[3]="And in the future, we don't need horses. We have motorized carriages called automobiles."
+  rand=$(( $RANDOM % 4 ))
+
+  echo ""
+  echo "  -\"${arr[$rand]}\""
+  echo ""
+  echo ""
+  echo "  Z is now ready to serve you in PHP 8"
 fi
 
 exit 0
