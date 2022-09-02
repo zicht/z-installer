@@ -43,7 +43,7 @@ if [ "${VERSION}" = "7" ]; then
   arr[2]="[waking up back in 1985] What a nightmare."
   arr[3]="Oh, this is heavy, Doc. I mean, it's like I was just here yesterday."
   arr[4]="Marty, I'm sorry, but I'm afraid you're stuck here."
-  rand=$(( $RANDOM % 4 ))
+  rand=$(( $RANDOM % 5 ))
 
   echo ""
   echo "  -\"${arr[$rand]}\""
